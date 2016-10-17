@@ -56,3 +56,8 @@ pre[class*="language-"] {
 .token.attr-value{
 	color: #19f9d8;
 }
+
+.token.punctuation,
+.token.doctype{
+	color: #E6E6E6;
+}

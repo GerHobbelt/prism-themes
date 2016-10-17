@@ -45,3 +45,10 @@ pre[class*="language-"] {
 .token.tag{
 	color: #FF2C6D;
 }
+
+.token.attr-name{
+	color: #FFB86C
+}
+.token.attr-name-id{
+	color: #45A9F9
+}

@@ -61,3 +61,37 @@ pre[class*="language-"] {
 .token.doctype{
 	color: #E6E6E6;
 }
+
+/* invisible */
+
+.token.tab:not(:empty),
+.token.cr,
+.token.lf,
+.token.space {
+	position: relative;
+}
+
+.token.tab:not(:empty):before,
+.token.cr:before,
+.token.lf:before,
+.token.space:before {
+	color: #34383d;
+	position: absolute;
+}
+
+.token.tab:not(:empty)::before{
+    content: '\00BB';
+}
+
+.token.cr:before{
+    content: '\240D';
+}
+
+.token.crlf:before,
+.token.lf:before{
+    content: '\00AC';
+}
+
+.token.space:before{
+	content: '';
+}

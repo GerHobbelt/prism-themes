@@ -12,7 +12,7 @@ pre[class*="language-"] {
 	white-space: pre;
 	word-spacing: normal;
 	word-break: normal;
-	line-height: 1.5;
+	line-height: 2;
 
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
@@ -35,6 +35,12 @@ pre[class*="language-"] {
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
 	background: #292A2B;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
 }
 
 .token.comment{
@@ -63,8 +69,6 @@ pre[class*="language-"] {
 .token.cdata{
 	color: #E6E6E6;
 }
-
-/* invisible */
 
 .token.tab:not(:empty),
 .token.cr,
@@ -98,7 +102,6 @@ pre[class*="language-"] {
 	content: '';
 }
 
-/* Line Numbers */
 pre.line-numbers {
 	position: relative;
 	padding-left: 3.8em;
@@ -112,9 +115,8 @@ pre.line-numbers > code {
 .line-numbers .line-numbers-rows {
 	position: absolute;
 	pointer-events: none;
-	top: 0;
+	top: -.3em; left: -3.8em;
 	font-size: 100%;
-	left: -3.8em;
 	width: 3em;
 	letter-spacing: -1px;
 	border-right: none;
@@ -139,3 +141,4 @@ pre.line-numbers > code {
 	padding-right: 0.8em;
 	text-align: right;
 }
+

@@ -58,7 +58,9 @@ pre[class*="language-"] {
 }
 
 .token.punctuation,
-.token.doctype{
+.token.doctype,
+.token.prolog,
+.token.cdata{
 	color: #E6E6E6;
 }
 
@@ -96,7 +98,7 @@ pre[class*="language-"] {
 	content: '';
 }
 
-
+/* Line Numbers */
 pre.line-numbers {
 	position: relative;
 	padding-left: 3.8em;

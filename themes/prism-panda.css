@@ -70,6 +70,7 @@ pre[class*="language-"] {
 	color: #E6E6E6;
 }
 
+/* Tabs (Invisible) */
 .token.tab:not(:empty),
 .token.cr,
 .token.lf,

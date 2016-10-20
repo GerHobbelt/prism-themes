@@ -43,34 +43,38 @@ pre[class*="language-"] {
 	border-radius: .3em;
 }
 
-.token.comment{
-	color: #676B79;
-	font-style: italic
-}
+/* Colors */
 
-.token.tag{
-	color: #FF2C6D;
-}
+	/* Common */
+	.token.comment{
+		color: #676B79;
+		font-style: italic
+	}
 
-.token.attr-name{
-	color: #FFB86C
-}
-.token.attr-name-id{
-	color: #45A9F9
-}
+	/* HTML */
+	.language-markup .token.tag{
+		color: #FF2C6D;
+	}
 
-.token.attr-value{
-	color: #19f9d8;
-}
+	.language-markup .token.attr-name{
+		color: #FFB86C
+	}
+	.language-markup .token.attr-name-id{
+		color: #45A9F9
+	}
 
-.token.punctuation,
-.token.doctype,
-.token.prolog,
-.token.cdata{
-	color: #E6E6E6;
-}
+	.language-markup .token.attr-value{
+		color: #19f9d8;
+	}
 
-/* Tabs (Invisible) */
+	.language-markup .token.punctuation,
+	.language-markup .token.doctype,
+	.language-markup .token.prolog,
+	.language-markup .token.cdata{
+		color: #E6E6E6;
+	}
+
+/* Tab */
 .token.tab:not(:empty),
 .token.cr,
 .token.lf,
@@ -167,6 +171,7 @@ pre[data-line] {
 .line-highlight:before,
 .line-highlight[data-end]:after {
 	content: attr(data-start);
+	content: '9';
 	position: absolute;
 	top: 0;
 	left: -0.3em;

@@ -74,6 +74,25 @@ pre[class*="language-"] {
 		color: #E6E6E6;
 	}
 
+	/* CSS */
+	.language-css .token.number{
+		color: #FFB86C
+	}
+
+	.language-css .token.selector,
+	.language-css .token.important{
+		color: #FF2C6D;
+	}
+
+	.language-css .token.property,
+	.language-css .token.punctuation{
+		color: #E6E6E6;
+	}
+
+	.language-css .token.string{
+		color: #19f9d8;
+	}
+
 /* Tab */
 .token.tab:not(:empty),
 .token.cr,

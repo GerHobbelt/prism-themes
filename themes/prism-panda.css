@@ -75,7 +75,9 @@ pre[class*="language-"] {
 	}
 
 	/* CSS */
-	.language-css .token.number{
+	.language-css .token.number
+	.language-css .token.class,
+	.language-css .token.pseudo-class{{
 		color: #FFB86C
 	}
 
@@ -91,6 +93,11 @@ pre[class*="language-"] {
 
 	.language-css .token.string{
 		color: #19f9d8;
+	}
+
+	.language-css .token.hexcode,
+	.language-css .token.id{
+		color: #45A9F9;
 	}
 
 /* Tab */

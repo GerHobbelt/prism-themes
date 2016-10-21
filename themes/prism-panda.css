@@ -75,10 +75,12 @@ pre[class*="language-"] {
 	}
 
 	/* CSS */
+	/* CSS */
 	.language-css .token.number,
 	.language-css .token.class,
 	.language-css .token.pseudo-class,
-	.language-css .token.attribute{
+	.language-css .token.attribute,
+	.language-css .token.unit{
 		color: #FFB86C
 	}
 
@@ -102,7 +104,9 @@ pre[class*="language-"] {
 	}
 
 	.language-css .token.hexcode,
-	.language-css .token.id{
+	.language-css .token.id,
+	.language-css .token.unicode,
+	.language-css .token.ascii{
 		color: #45A9F9;
 	}
 

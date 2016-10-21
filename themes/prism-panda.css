@@ -75,15 +75,21 @@ pre[class*="language-"] {
 	}
 
 	/* CSS */
-	.language-css .token.number
+	.language-css .token.number,
 	.language-css .token.class,
-	.language-css .token.pseudo-class{{
+	.language-css .token.pseudo-class,
+	.language-css .token.attribute{
 		color: #FFB86C
 	}
 
 	.language-css .token.selector,
 	.language-css .token.important{
 		color: #FF2C6D;
+	}
+
+	
+	.language-css .token.selector .token.punctuation{
+		color: #ff75b5;
 	}
 
 	.language-css .token.property,

@@ -75,7 +75,6 @@ pre[class*="language-"] {
 	}
 
 	/* CSS */
-	/* CSS */
 	.language-css .token.number,
 	.language-css .token.class,
 	.language-css .token.pseudo-class,
@@ -89,7 +88,7 @@ pre[class*="language-"] {
 		color: #FF2C6D;
 	}
 
-	
+
 	.language-css .token.selector .token.punctuation{
 		color: #ff75b5;
 	}
@@ -108,6 +107,43 @@ pre[class*="language-"] {
 	.language-css .token.unicode,
 	.language-css .token.ascii{
 		color: #45A9F9;
+	}
+
+	/* JavaScript */
+	.language-javascript .token.keyword.control,
+	.language-javascript .token.keyword.new{
+		color: #ff75b5;
+	}
+
+	.language-javascript .token.keyword.type,
+	.language-javascript .token.class-name,
+	.language-javascript .token.number{
+		color: #ffb86c;
+	}
+
+	.language-javascript .token.boolean{
+		color: #ffcc95;
+	}
+
+	.language-javascript .token.keyword.operator,
+	.language-javascript .token.operator{
+		color: #e6e6e6;
+	}
+
+	.language-javascript .token.keyword.new{
+		font-style: italic;
+	}
+
+	.language-javascript .token.keyword.variable{
+		color: #ff9ac1;
+	}
+
+	.language-javascript .token.string{
+		color: #19f9d8;
+	}
+
+	.language-javascript .token.function{
+		color: #6fc1ff;
 	}
 
 /* Tab */

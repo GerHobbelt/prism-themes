@@ -110,8 +110,7 @@ pre[class*="language-"] {
 	}
 
 	/* JavaScript */
-	.language-javascript .token.keyword.control,
-	.language-javascript .token.keyword.new{
+	.language-javascript .token.keyword.control{
 		color: #ff75b5;
 	}
 
@@ -130,10 +129,6 @@ pre[class*="language-"] {
 	.language-javascript .token.keyword.operator,
 	.language-javascript .token.operator{
 		color: #e6e6e6;
-	}
-
-	.language-javascript .token.keyword.new{
-		font-style: italic;
 	}
 
 	.language-javascript .token.keyword.variable{

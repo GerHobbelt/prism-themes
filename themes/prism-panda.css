@@ -117,11 +117,13 @@ pre[class*="language-"] {
 
 	.language-javascript .token.keyword.type,
 	.language-javascript .token.class-name,
-	.language-javascript .token.number{
+	.language-javascript .token.number,
+	.language-javascript .token.object .punctuation{
 		color: #ffb86c;
 	}
 
-	.language-javascript .token.boolean{
+	.language-javascript .token.boolean,
+	.language-javascript .token.object.key{
 		color: #ffcc95;
 	}
 

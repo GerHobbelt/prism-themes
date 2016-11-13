@@ -134,7 +134,9 @@ pre[class*="language-"] {
 		color: #e6e6e6;
 	}
 
-	.language-javascript .token.keyword.variable{
+	.language-javascript .token.keyword.variable,
+	.language-javascript .token.keyword.object,
+	.language-javascript .token.keyword.function-ref .keyword.identifier{
 		color: #ff9ac1;
 	}
 

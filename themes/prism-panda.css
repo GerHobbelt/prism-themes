@@ -117,7 +117,8 @@ pre[class*="language-"] {
 	.language-javascript .token.keyword.type,
 	.language-javascript .token.class-name,
 	.language-javascript .token.number,
-	.language-javascript .token.object .punctuation{
+	.language-javascript .token.object.key .punctuation,
+	.language-javascript .token.object.method .function{
 		color: #ffb86c;
 	}
 
@@ -127,7 +128,9 @@ pre[class*="language-"] {
 	}
 
 	.language-javascript .token.keyword.operator,
-	.language-javascript .token.operator{
+	.language-javascript .token.operator,
+	.language-javascript .token.punctuation,
+	.language-javascript .token.object.method .punctuation{
 		color: #e6e6e6;
 	}
 
@@ -139,7 +142,8 @@ pre[class*="language-"] {
 		color: #19f9d8;
 	}
 
-	.language-javascript .token.function{
+	.language-javascript .token.function,
+	.language-javascript .token.object.method{
 		color: #6fc1ff;
 	}
 

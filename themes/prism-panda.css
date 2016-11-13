@@ -123,7 +123,8 @@ pre[class*="language-"] {
 	}
 
 	.language-javascript .token.boolean,
-	.language-javascript .token.object.key{
+	.language-javascript .token.object.key,
+	.language-javascript .token.comparison{
 		color: #ffcc95;
 	}
 

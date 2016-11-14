@@ -152,7 +152,8 @@ pre[class*="language-"] {
 
 	/* Sass (SCSS) */
 	.language-scss .token.punctuation,
-	.language-scss .token.property{
+	.language-scss .token.property,
+	.language-scss .token.comparison{
 		color: #e6e6e6
 	}
 

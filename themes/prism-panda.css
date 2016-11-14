@@ -154,9 +154,13 @@ pre[class*="language-"] {
 	.language-scss .token.punctuation{
 		color: #e6e6e6
 	}
-	
+
 	.language-scss .token.selector{
 		color: #ff2c6d;
+	}
+
+	.language-scss .token.keyword.at-rule{
+		color: #b084eb;
 	}
 
 /* Tab */

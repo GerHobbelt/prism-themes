@@ -150,6 +150,11 @@ pre[class*="language-"] {
 		color: #6fc1ff;
 	}
 
+	/* Sass (SCSS) */
+	.language-scss .token.selector{
+		color: #ff2c6d;
+	}
+
 /* Tab */
 .token.tab:not(:empty),
 .token.cr,

@@ -159,6 +159,10 @@ pre[class*="language-"] {
 		color: #ff2c6d;
 	}
 
+	.language-scss .token.keyword.if{
+		color: #ff75b5;
+	}
+
 	.language-scss .token.keyword.at-rule{
 		color: #b084eb;
 	}

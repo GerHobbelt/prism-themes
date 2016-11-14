@@ -156,8 +156,12 @@ pre[class*="language-"] {
 		color: #e6e6e6
 	}
 
-	.language-scss .variable{
+	.language-scss .token.variable{
 		color: #ff9ac1;
+	}
+
+	.language-scss .token.number{
+		color: #ffb86c;
 	}
 
 	.language-scss .token.selector{

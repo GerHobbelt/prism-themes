@@ -151,6 +151,10 @@ pre[class*="language-"] {
 	}
 
 	/* Sass (SCSS) */
+	.language-scss .token.punctuation{
+		color: #e6e6e6
+	}
+	
 	.language-scss .token.selector{
 		color: #ff2c6d;
 	}

@@ -151,7 +151,8 @@ pre[class*="language-"] {
 	}
 
 	/* Sass (SCSS) */
-	.language-scss .token.punctuation{
+	.language-scss .token.punctuation,
+	.language-scss .token.property{
 		color: #e6e6e6
 	}
 
@@ -163,7 +164,7 @@ pre[class*="language-"] {
 		color: #ff75b5;
 	}
 
-	.language-scss .token.keyword.at-rule{
+	.language-scss .token.keyword.atrule{
 		color: #b084eb;
 	}
 

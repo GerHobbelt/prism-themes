@@ -1,10 +1,10 @@
 {
   "name": "prism-themes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Addtional themes for the Prism syntax highlighting library.",
   "main": "README.md",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no tests required\" && exit 0"
   },
   "repository": {
     "type": "git",

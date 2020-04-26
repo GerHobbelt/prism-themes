@@ -32,3 +32,5 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 [![Xonokai](screenshots/prism-xonokai.png)](themes/prism-xonokai.css)</p>
 * <p>[__Atelierlakeside-light__](themes/prism-base16-atelierlakeside.light.css) by [Bram de Haan](https://github.com/atelierbram)<br />
 [![Atelierlakeside-light](screenshots/prism-atelierlakeside-light.png)](themes/prism-base16-atelierlakeside.light.css)</p>
+* <p>[__Atelierlakeside-dark__](themes/prism-base16-atelierlakeside.dark.css) by [Bram de Haan](https://github.com/atelierbram)<br />
+[![Atelierlakeside-dark](screenshots/prism-atelierlakeside-dark.png)](themes/prism-base16-atelierlakeside.dark.css)</p>

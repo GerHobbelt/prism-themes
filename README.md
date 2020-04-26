@@ -48,3 +48,5 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 [![Atelierheath-dark](screenshots/prism-atelierheath-dark.png)](themes/prism-base16-atelierheath.dark.css)</p>
 * <p>[__Atelierforest-light__](themes/prism-base16-atelierforest.light.css) by [Bram de Haan](https://github.com/atelierbram)<br />
 [![Atelierforest-light](screenshots/prism-atelierforest-light.png)](themes/prism-base16-atelierforest.light.css)</p>
+* <p>[__Atelierforest-dark__](themes/prism-base16-atelierforest.dark.css) by [Bram de Haan](https://github.com/atelierbram)<br />
+[![Atelierforest-dark](screenshots/prism-atelierforest-dark.png)](themes/prism-base16-atelierforest.dark.css)</p>

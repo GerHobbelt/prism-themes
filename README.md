@@ -60,3 +60,5 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 [![railscasts-dark](screenshots/prism-railscasts-dark.png)](themes/prism-base16-railscasts.dark.css)</p>
 * <p>[__Paraiso-light__](themes/prism-base16-paraiso.light.css) (by [Jan T. Sott](http://github.com/idleberg))<br />
 [![Paraiso-light](screenshots/prism-paraiso-light.png)](themes/prism-base16-paraiso.light.css)</p>
+* <p>[__Paraiso-dark__](themes/prism-base16-paraiso.dark.css) (by [Jan T. Sott](http://github.com/idleberg))<br />
+[![Paraiso-dark](screenshots/prism-paraiso-dark.png)](themes/prism-base16-paraiso.dark.css)</p>

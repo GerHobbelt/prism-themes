@@ -66,3 +66,5 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 [![Base16-Twilight-dark](screenshots/prism-base16-twilight-dark.png)](themes/prism-base16-twilight.dark.css)</p>
 * <p>[__Base16-Tomorrow-dark__](themes/prism-base16-tomorrow.dark.css) (by [Chris Kempson](https://github.com/chriskempson))<br />
 [![Base16-Tomorrow-dark](screenshots/prism-base16-tomorrow-dark.png)](themes/prism-base16-tomorrow.dark.css)</p>
+* <p>[__Summerfruit-light__](themes/prism-base16-summerfruit.light.css) (by [Christopher Corley](https://github.com/cscorley))<br />
+[![Summerfruit-light](screenshots/prism-summerfruit-light.png)](themes/prism-base16-summerfruit.light.css)</p>

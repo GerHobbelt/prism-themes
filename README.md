@@ -71,6 +71,9 @@ Thank you so much for contributing!!
 * [__Ateliercave-light__](themes/prism-base16-ateliercave.light.css) by [Bram de Haan](https://github.com/atelierbram)<br />
 [![Ateliercave-light](screenshots/prism-ateliercave-light.png)](themes/prism-base16-ateliercave.light.css)
 
+* [__Ateliersavanna-light__](themes/prism-base16-ateliersavanna.light.css) by [Bram de Haan](https://github.com/atelierbram)<br />
+[![Ateliersavanna-light](screenshots/prism-ateliersavanna-light.png)](themes/prism-base16-ateliersavanna.light.css)
+
 * [__Hopscotch__](themes/prism-hopscotch.css) (by [Jan T. Sott](https://github.com/idleberg))<br />
 [![Hopscotch](screenshots/prism-hopscotch.png)](themes/prism-hopscotch.css)
 

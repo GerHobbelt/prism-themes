@@ -116,6 +116,15 @@ Thank you so much for contributing!!
 * [__Darcula__](themes/prism-darcula.css) (by [service-paradis](https://github.com/service-paradis), based on Jetbrains Darcula theme)<br />
 [![Darcula](screenshots/prism-darcula.png)](themes/prism-darcula.css)
 
+* [__256 GrayViM__](themes/prism-256-grayvim.css) (by [BlackyPanther](https://github.com/BlackyPanther), based on 256 GrayViM for ViM)<br />
+[![256 GrayViM](screenshots/prism-256-grayvim.png)](themes/prism-256-grayvim.css)
+
+* [__Desert__](themes/prism-desert.css) (by [BlackyPanther](https://github.com/BlackyPanther), based on Desert for ViM)<br />
+[![Desert](screenshots/prism-desert.png)](themes/prism-desert.css)
+
+* [__Eclipse__](themes/prism-eclipse.css) (by [BlackyPanther](https://github.com/BlackyPanther), based on Eclipse for ViM)<br />
+[![Eclipse](screenshots/prism-eclipse.png)](themes/prism-eclipse.css)
+
 * [__a11y Dark__](themes/prism-a11y-dark.css) (by [ericwbailey](https://github.com/ericwbailey))<br />
 [![a11y Dark](screenshots/prism-a11y-dark.png)](themes/prism-a11y-dark.css)
 
@@ -139,6 +148,15 @@ Thank you so much for contributing!!
 
 * [__Nord__](themes/prism-nord.css) (originally by [Nord](https://www.nordtheme.com/), adapted by [Zane Hitchcox](https://github.com/zwhitchcox) and [Gabriel Ramos](https://github.com/gabrieluizramos))<br />
 [![Nord](screenshots/prism-nord.png)](themes/prism-nord.css)
+
+* [__Monokai__](themes/prism-monokai.css) (by [BlackyPanther](https://github.com/BlackyPanther), based on Monokai for ViM)<br />
+[![Monokai](screenshots/prism-monokai.png)](themes/prism-monokai.css)
+
+* [__Obsidian 2__](themes/prism-obsidian2.css) (by [BlackyPanther](https://github.com/BlackyPanther), based on Obsidian 2 for ViM)<br />
+[![Obsidian 2](screenshots/prism-obsidian2.png)](themes/prism-obsidian2.css)
+
+* [__Zenburn__](themes/prism-zenburn.css) (by [BlackyPanther](https://github.com/BlackyPanther), based on the amazing [Zenburn Theme](http://kippura.org/zenburnpage/) for ViM)<br />
+[![256 GrayViM](screenshots/prism-zenburn.png)](themes/prism-zenburn.css)
 
 * [__Coy without shadows__](themes/prism-coy-without-shadows.css) (by [RunDevelopment](https://github.com/RunDevelopment), based on Tim Shedor's Coy theme)<br />
 [![Coy without shadows](screenshots/prism-coy-without-shadows.png)](themes/prism-coy-without-shadows.css)

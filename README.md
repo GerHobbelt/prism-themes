@@ -62,6 +62,9 @@ Thank you so much for contributing!!
 * [__Atelierplateau-dark__](themes/prism-base16-atelierplateau.dark.css) by [Bram de Haan](https://github.com/atelierbram)<br />
 [![Atelierplateau-dark](screenshots/prism-atelierplateau-dark.png)](themes/prism-base16-atelierplateau.dark.css)
 
+* [__Atelierplateau-light__](themes/prism-base16-atelierplateau.light.css) by [Bram de Haan](https://github.com/atelierbram)<br />
+[![Atelierplateau-light](screenshots/prism-atelierplateau-light.png)](themes/prism-base16-atelierplateau.light.css)
+
 * [__Hopscotch__](themes/prism-hopscotch.css) (by [Jan T. Sott](https://github.com/idleberg))<br />
 [![Hopscotch](screenshots/prism-hopscotch.png)](themes/prism-hopscotch.css)
 

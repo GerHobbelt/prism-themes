@@ -112,3 +112,6 @@ Thank you so much for contributing!!
 
 * [__Nord__](themes/prism-nord.css) (originally by [Nord](https://www.nordtheme.com/), adapted by [Zane Hitchcox](https://github.com/zwhitchcox) and [Gabriel Ramos](https://github.com/gabrieluizramos))<br />
 [![Nord](screenshots/prism-nord.png)](themes/prism-nord.css)
+
+* [__Coy without shadows__](themes/prism-coy-without-shadows.css) (by [RunDevelopment](https://github.com/RunDevelopment), based on Tim Shedor's Coy theme)<br />
+[![Coy without shadows](screenshots/prism-coy-without-shadows.png)](themes/prism-coy-without-shadows.css)

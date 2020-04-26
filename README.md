@@ -54,3 +54,5 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 [![Summerfruit-dark](screenshots/prism-summerfruit-dark.png)](themes/prism-base16-summerfruit.dark.css)</p>
 * <p>[__Solarized-dark__](themes/prism-base16-solarized.dark.css) (originally by [Ethan Schoonover](https://github.com/altercation/) adapted by [Chris Kempson](https://github.com/chriskempson))<br />
 [![Solarized-dark](screenshots/prism-solarized-dark.png)](themes/prism-base16-solarized.dark.css)</p>
+* <p>[__Solarized-light__](themes/prism-base16-solarized.light.css) (originally by [Ethan Schoonover](https://github.com/altercation/) adapted by [Chris Kempson](http://github.com/chriskempson))<br />
+[![Solarized-light](screenshots/prism-solarized-light.png)](themes/prism-base16-solarized.light.css)</p>

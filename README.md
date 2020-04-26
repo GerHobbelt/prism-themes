@@ -56,6 +56,9 @@ Thank you so much for contributing!!
 * [__Ateliersulphurpool-dark__](themes/prism-base16-ateliersulphurpool.dark.css) by [Bram de Haan](https://github.com/atelierbram)<br />
 [![Ateliersulphurpool-dark](screenshots/prism-ateliersulphurpool-dark.png)](themes/prism-base16-ateliersulphurpool.dark.css)
 
+* [__Atelierestuary-light__](themes/prism-base16-atelierestuary.light.css) by [Bram de Haan](https://github.com/atelierbram)<br />
+[![Atelierestuary-light](screenshots/prism-atelierestuary-light.png)](themes/prism-base16-atelierestuary.light.css)
+
 * [__Ateliersulphurpool-light__](themes/prism-base16-ateliersulphurpool.light.css) (by [Bram de Haan](https://github.com/atelierbram))<br />
 [![Ateliersulpherpool-light](screenshots/prism-base16-ateliersulphurpool.light.png)](themes/prism-base16-ateliersulphurpool.light.css)
 

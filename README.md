@@ -36,3 +36,5 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 [![Atelierlakeside-dark](screenshots/prism-atelierlakeside-dark.png)](themes/prism-base16-atelierlakeside.dark.css)</p>
 * <p>[__Atelierseaside-light__](themes/prism-base16-atelierseaside.light.css) by [Bram de Haan](https://github.com/atelierbram)<br />
 [![Atelierseaside-light](screenshots/prism-atelierseaside-light.png)](themes/prism-base16-atelierseaside.light.css)</p>
+* <p>[__Atelierseaside-dark__](themes/prism-base16-atelierseaside.dark.css) by [Bram de Haan](https://github.com/atelierbram)<br />
+[![Atelierseaside-dark](screenshots/prism-atelierseaside-dark.png)](themes/prism-base16-atelierseaside.dark.css)</p>

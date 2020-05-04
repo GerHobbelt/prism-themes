@@ -4,7 +4,7 @@
   "description": "Additional themes for the Prism syntax highlighting library.",
   "main": "README.md",
   "scripts": {
-    "build": "npm run update-imgs && npm test",
+    "build": "gulp build && npm test",
     "lint": "stylelint \"themes/*.css\"",
     "lint-fix": "stylelint \"themes/*.css\" --fix",
     "update-imgs": "gulp screenshot",
@@ -25,6 +25,7 @@
   "devDependencies": {
     "capture-website": "^0.8.1",
     "gulp": "^4.0.2",
+    "jsdom": "^1.2.1",
     "stylelint": "^13.3.3",
     "stylelint-config-standard": "^20.0.0"
   }

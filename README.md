@@ -254,7 +254,7 @@ See our [Contributing](CONTRIBUTING.md) guide.
 * [__VS__](themes/prism-vs.css) (by [Andrew Lock](https://andrewlock.net), based on [Visual Studio syntax coloring](https://github.com/Visual Studio syntax coloring))<br />
 [![VS](screenshots/prism-vs.png)](themes/prism-vs.css)
 
-* [__VSC Dark Plus__](themes/prism-vsc-dark-plus.css) (undefined)<br />
+* [__VSC Dark Plus__](themes/prism-vsc-dark-plus.css) (by [Taylor Buckner](https://github.com/tabuckner), based on [VS Codes Dark+](https://github.com/VS Codes Dark+))<br />
 [![VSC Dark Plus](screenshots/prism-vsc-dark-plus.png)](themes/prism-vsc-dark-plus.css)
 
 * [__Xonokai__](themes/prism-xonokai.css) (by [atelierbram](https://github.com/atelierbram), based on [https://github.com/MoOx/sass-prism-theme-base by Maxime Thirouin ~ MoOx --> http://moox.fr/ , which is Loosely based on Monokai textmate theme](https://github.com/https://github.com/MoOx/sass-prism-theme-base by Maxime Thirouin ~ MoOx --> http://moox.fr/ , which is Loosely based on Monokai textmate theme))<br />

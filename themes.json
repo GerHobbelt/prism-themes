@@ -774,7 +774,12 @@
             "basedOn": "Visual Studio syntax coloring"
         },
         "vsc-dark-plus": {
-            "title": "VSC Dark Plus"
+            "title": "VSC Dark Plus",
+            "owner": {
+                "name": "Taylor Buckner",
+                "link": "https://github.com/tabuckner"
+            },
+            "basedOn": "VS Codes Dark+"
         },
         "xonokai": {
             "title": "Xonokai",

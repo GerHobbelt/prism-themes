@@ -25,7 +25,7 @@
   "devDependencies": {
     "capture-website": "^0.8.1",
     "gulp": "^4.0.2",
-    "jsdom": "^1.2.1",
+    "jsdom": "^16.2.2",
     "stylelint": "^13.3.3",
     "stylelint-config-standard": "^20.0.0"
   }

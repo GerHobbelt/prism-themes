@@ -26,7 +26,7 @@ See our [Contributing](CONTRIBUTING.md) guide.
 
 ## Available themes
 
-* [__256-grayvim__](themes/prism-256-grayvim.css) (by [Andreas Mueller](webmaster@am-wd.de))<br />
+* [__256-grayvim__](themes/prism-256-grayvim.css) (by [Andreas Mueller](mailto:webmaster@am-wd.de))<br />
 [![256-grayvim](screenshots/prism-256-grayvim.png)](themes/prism-256-grayvim.css)
 
 * [__a11y Dark__](themes/prism-a11y-dark.css) (by [ericwbailey](https://github.com/ericwbailey))<br />
@@ -35,151 +35,151 @@ See our [Contributing](CONTRIBUTING.md) guide.
 * [__Atom Dark__](themes/prism-atom-dark.css) (by [Joe Gibson](https://github.com/gibsjose), based on [Atom Dark Syntax theme](https://github.com/atom/atom-dark-syntax))<br />
 [![Atom Dark](screenshots/prism-atom-dark.png)](themes/prism-atom-dark.css)
 
-* [__Base16 Ashes Dark__](themes/prism-base16-ashes.dark.css) (by [Jannik Siebert](https://github.com/janniks), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Ashes Dark__](themes/prism-base16-ashes.dark.css) (by [Jannik Siebert](https://github.com/janniks), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Ashes Dark](screenshots/prism-base16-ashes.dark.png)](themes/prism-base16-ashes.dark.css)
 
-* [__Base16 Atelier Cave Dark__](themes/prism-base16-ateliercave.dark.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Atelier Cave Dark__](themes/prism-base16-ateliercave.dark.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Atelier Cave Dark](screenshots/prism-base16-ateliercave.dark.png)](themes/prism-base16-ateliercave.dark.css)
 
-* [__Base16 Atelier Cave Light__](themes/prism-base16-ateliercave.light.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Atelier Cave Light__](themes/prism-base16-ateliercave.light.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Atelier Cave Light](screenshots/prism-base16-ateliercave.light.png)](themes/prism-base16-ateliercave.light.css)
 
-* [__Base16 Atelier Dune Dark__](themes/prism-base16-atelierdune.dark.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Atelier Dune Dark__](themes/prism-base16-atelierdune.dark.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Atelier Dune Dark](screenshots/prism-base16-atelierdune.dark.png)](themes/prism-base16-atelierdune.dark.css)
 
-* [__Base16 Atelier Dune Light__](themes/prism-base16-atelierdune.light.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Atelier Dune Light__](themes/prism-base16-atelierdune.light.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Atelier Dune Light](screenshots/prism-base16-atelierdune.light.png)](themes/prism-base16-atelierdune.light.css)
 
-* [__Base16 Atelier Estuary Dark__](themes/prism-base16-atelierestuary.dark.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Atelier Estuary Dark__](themes/prism-base16-atelierestuary.dark.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Atelier Estuary Dark](screenshots/prism-base16-atelierestuary.dark.png)](themes/prism-base16-atelierestuary.dark.css)
 
-* [__Base16 Atelier Estuary Light__](themes/prism-base16-atelierestuary.light.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Atelier Estuary Light__](themes/prism-base16-atelierestuary.light.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Atelier Estuary Light](screenshots/prism-base16-atelierestuary.light.png)](themes/prism-base16-atelierestuary.light.css)
 
-* [__Base16 Atelier Forest Dark__](themes/prism-base16-atelierforest.dark.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Atelier Forest Dark__](themes/prism-base16-atelierforest.dark.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Atelier Forest Dark](screenshots/prism-base16-atelierforest.dark.png)](themes/prism-base16-atelierforest.dark.css)
 
-* [__Base16 Atelier Forest Light__](themes/prism-base16-atelierforest.light.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Atelier Forest Light__](themes/prism-base16-atelierforest.light.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Atelier Forest Light](screenshots/prism-base16-atelierforest.light.png)](themes/prism-base16-atelierforest.light.css)
 
-* [__Base16 Atelier Heath Dark__](themes/prism-base16-atelierheath.dark.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Atelier Heath Dark__](themes/prism-base16-atelierheath.dark.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Atelier Heath Dark](screenshots/prism-base16-atelierheath.dark.png)](themes/prism-base16-atelierheath.dark.css)
 
-* [__Base16 Atelier Heath Light__](themes/prism-base16-atelierheath.light.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Atelier Heath Light__](themes/prism-base16-atelierheath.light.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Atelier Heath Light](screenshots/prism-base16-atelierheath.light.png)](themes/prism-base16-atelierheath.light.css)
 
-* [__Base16 Atelier Lakeside Dark__](themes/prism-base16-atelierlakeside.dark.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside/), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Atelier Lakeside Dark__](themes/prism-base16-atelierlakeside.dark.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside/), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Atelier Lakeside Dark](screenshots/prism-base16-atelierlakeside.dark.png)](themes/prism-base16-atelierlakeside.dark.css)
 
-* [__Base16 Atelier Lakeside Light__](themes/prism-base16-atelierlakeside.light.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside/), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Atelier Lakeside Light__](themes/prism-base16-atelierlakeside.light.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside/), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Atelier Lakeside Light](screenshots/prism-base16-atelierlakeside.light.png)](themes/prism-base16-atelierlakeside.light.css)
 
-* [__Base16 Atelier Plateau Dark__](themes/prism-base16-atelierplateau.dark.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Atelier Plateau Dark__](themes/prism-base16-atelierplateau.dark.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Atelier Plateau Dark](screenshots/prism-base16-atelierplateau.dark.png)](themes/prism-base16-atelierplateau.dark.css)
 
-* [__Base16 Atelier Plateau Light__](themes/prism-base16-atelierplateau.light.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Atelier Plateau Light__](themes/prism-base16-atelierplateau.light.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Atelier Plateau Light](screenshots/prism-base16-atelierplateau.light.png)](themes/prism-base16-atelierplateau.light.css)
 
-* [__Base16 Atelier Savanna Dark__](themes/prism-base16-ateliersavanna.dark.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Atelier Savanna Dark__](themes/prism-base16-ateliersavanna.dark.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Atelier Savanna Dark](screenshots/prism-base16-ateliersavanna.dark.png)](themes/prism-base16-ateliersavanna.dark.css)
 
-* [__Base16 Atelier Savanna Light__](themes/prism-base16-ateliersavanna.light.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Atelier Savanna Light__](themes/prism-base16-ateliersavanna.light.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Atelier Savanna Light](screenshots/prism-base16-ateliersavanna.light.png)](themes/prism-base16-ateliersavanna.light.css)
 
-* [__Base16 Atelier Seaside Dark__](themes/prism-base16-atelierseaside.dark.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside/), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Atelier Seaside Dark__](themes/prism-base16-atelierseaside.dark.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside/), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Atelier Seaside Dark](screenshots/prism-base16-atelierseaside.dark.png)](themes/prism-base16-atelierseaside.dark.css)
 
-* [__Base16 Atelier Seaside Light__](themes/prism-base16-atelierseaside.light.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside/), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Atelier Seaside Light__](themes/prism-base16-atelierseaside.light.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside/), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Atelier Seaside Light](screenshots/prism-base16-atelierseaside.light.png)](themes/prism-base16-atelierseaside.light.css)
 
-* [__Base16 Atelier Sulphurpool Dark__](themes/prism-base16-ateliersulphurpool.dark.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Atelier Sulphurpool Dark__](themes/prism-base16-ateliersulphurpool.dark.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Atelier Sulphurpool Dark](screenshots/prism-base16-ateliersulphurpool.dark.png)](themes/prism-base16-ateliersulphurpool.dark.css)
 
-* [__Base16 Atelier Sulphurpool Light__](themes/prism-base16-ateliersulphurpool.light.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Atelier Sulphurpool Light__](themes/prism-base16-ateliersulphurpool.light.css) (by [Bram de Haan](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Atelier Sulphurpool Light](screenshots/prism-base16-ateliersulphurpool.light.png)](themes/prism-base16-ateliersulphurpool.light.css)
 
-* [__Base16 Brewer Dark__](themes/prism-base16-brewer.dark.css) (by [Timothée Poisot](http://github.com/tpoisot), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Brewer Dark__](themes/prism-base16-brewer.dark.css) (by [Timothée Poisot](http://github.com/tpoisot), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Brewer Dark](screenshots/prism-base16-brewer.dark.png)](themes/prism-base16-brewer.dark.css)
 
-* [__Base16 Bright Dark__](themes/prism-base16-bright.dark.css) (by [Chris Kempson](http://chriskempson.com), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Bright Dark__](themes/prism-base16-bright.dark.css) (by [Chris Kempson](http://chriskempson.com), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Bright Dark](screenshots/prism-base16-bright.dark.png)](themes/prism-base16-bright.dark.css)
 
-* [__Base16 Chalk Dark__](themes/prism-base16-chalk.dark.css) (by [Chris Kempson](http://chriskempson.com), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Chalk Dark__](themes/prism-base16-chalk.dark.css) (by [Chris Kempson](http://chriskempson.com), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Chalk Dark](screenshots/prism-base16-chalk.dark.png)](themes/prism-base16-chalk.dark.css)
 
-* [__Base16 Google Light__](themes/prism-base16-google.light.css) (by [Seth Wright](http://sethawright.com), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Google Light__](themes/prism-base16-google.light.css) (by [Seth Wright](http://sethawright.com), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Google Light](screenshots/prism-base16-google.light.png)](themes/prism-base16-google.light.css)
 
-* [__Base16 Grayscale Dark__](themes/prism-base16-grayscale.dark.css) (by [Alexandre Gavioli](https://github.com/Alexx2/), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Grayscale Dark__](themes/prism-base16-grayscale.dark.css) (by [Alexandre Gavioli](https://github.com/Alexx2/), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Grayscale Dark](screenshots/prism-base16-grayscale.dark.png)](themes/prism-base16-grayscale.dark.css)
 
-* [__Base16 Grayscale Light__](themes/prism-base16-grayscale.light.css) (by [Alexandre Gavioli](https://github.com/Alexx2/), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Grayscale Light__](themes/prism-base16-grayscale.light.css) (by [Alexandre Gavioli](https://github.com/Alexx2/), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Grayscale Light](screenshots/prism-base16-grayscale.light.png)](themes/prism-base16-grayscale.light.css)
 
-* [__Base16 Green Screen Dark__](themes/prism-base16-greenscreen.dark.css) (by [Chris Kempson](http://chriskempson.com), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Green Screen Dark__](themes/prism-base16-greenscreen.dark.css) (by [Chris Kempson](http://chriskempson.com), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Green Screen Dark](screenshots/prism-base16-greenscreen.dark.png)](themes/prism-base16-greenscreen.dark.css)
 
-* [__Base16 harmonic16 Dark__](themes/prism-base16-harmonic16.dark.css) (by [Jannik Siebert](https://github.com/janniks), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 harmonic16 Dark__](themes/prism-base16-harmonic16.dark.css) (by [Jannik Siebert](https://github.com/janniks), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 harmonic16 Dark](screenshots/prism-base16-harmonic16.dark.png)](themes/prism-base16-harmonic16.dark.css)
 
-* [__Base16 Hopscotch Dark__](themes/prism-base16-hopscotch.dark.css) (by [Jan T. Sott](https://github.com/Jan T. Sott), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Hopscotch Dark__](themes/prism-base16-hopscotch.dark.css) (by [Jan T. Sott](https://github.com/idleberg), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Hopscotch Dark](screenshots/prism-base16-hopscotch.dark.png)](themes/prism-base16-hopscotch.dark.css)
 
-* [__Base16 Isotope Dark__](themes/prism-base16-isotope.dark.css) (by [Jan T. Sott](https://github.com/Jan T. Sott), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Isotope Dark__](themes/prism-base16-isotope.dark.css) (by [Jan T. Sott](https://github.com/idleberg), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Isotope Dark](screenshots/prism-base16-isotope.dark.png)](themes/prism-base16-isotope.dark.css)
 
-* [__Base16 Marrakesh Dark__](themes/prism-base16-marrakesh.dark.css) (by [Alexandre Gavioli](http://github.com/Alexx2/), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Marrakesh Dark__](themes/prism-base16-marrakesh.dark.css) (by [Alexandre Gavioli](http://github.com/Alexx2/), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Marrakesh Dark](screenshots/prism-base16-marrakesh.dark.png)](themes/prism-base16-marrakesh.dark.css)
 
-* [__Base16 Marrakesh Light__](themes/prism-base16-marrakesh.light.css) (by [Alexandre Gavioli](http://github.com/Alexx2/), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Marrakesh Light__](themes/prism-base16-marrakesh.light.css) (by [Alexandre Gavioli](http://github.com/Alexx2/), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Marrakesh Light](screenshots/prism-base16-marrakesh.light.png)](themes/prism-base16-marrakesh.light.css)
 
-* [__Base16 Mocha Dark__](themes/prism-base16-mocha.dark.css) (by [Chris Kempson](http://chriskempson.com), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Mocha Dark__](themes/prism-base16-mocha.dark.css) (by [Chris Kempson](http://chriskempson.com), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Mocha Dark](screenshots/prism-base16-mocha.dark.png)](themes/prism-base16-mocha.dark.css)
 
-* [__Base16 Monokai Dark__](themes/prism-base16-monokai.dark.css) (by [Wimer Hazenberg](http://www.monokai.nl), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Monokai Dark__](themes/prism-base16-monokai.dark.css) (by [Wimer Hazenberg](http://www.monokai.nl), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Monokai Dark](screenshots/prism-base16-monokai.dark.png)](themes/prism-base16-monokai.dark.css)
 
-* [__Base16 Ocean Dark__](themes/prism-base16-ocean.dark.css) (by [Chris Kempson](http://chriskempson.com), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Ocean Dark__](themes/prism-base16-ocean.dark.css) (by [Chris Kempson](http://chriskempson.com), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Ocean Dark](screenshots/prism-base16-ocean.dark.png)](themes/prism-base16-ocean.dark.css)
 
-* [__Base16 Paraiso Dark__](themes/prism-base16-paraiso.dark.css) (by [Jan T. Sott](https://github.com/Jan T. Sott), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Paraiso Dark__](themes/prism-base16-paraiso.dark.css) (by [Jan T. Sott](https://github.com/idleberg), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Paraiso Dark](screenshots/prism-base16-paraiso.dark.png)](themes/prism-base16-paraiso.dark.css)
 
-* [__Base16 Paraiso Light__](themes/prism-base16-paraiso.light.css) (by [Jan T. Sott](https://github.com/Jan T. Sott), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Paraiso Light__](themes/prism-base16-paraiso.light.css) (by [Jan T. Sott](https://github.com/idleberg), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Paraiso Light](screenshots/prism-base16-paraiso.light.png)](themes/prism-base16-paraiso.light.css)
 
-* [__Base16 Railscasts Dark__](themes/prism-base16-railscasts.dark.css) (by [Ryan Bates](http://railscasts.com), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Railscasts Dark__](themes/prism-base16-railscasts.dark.css) (by [Ryan Bates](http://railscasts.com), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Railscasts Dark](screenshots/prism-base16-railscasts.dark.png)](themes/prism-base16-railscasts.dark.css)
 
-* [__Base16 Solarized Dark__](themes/prism-base16-solarized.dark.css) (by [Ethan Schoonover](http://ethanschoonover.com/solarized), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Solarized Dark__](themes/prism-base16-solarized.dark.css) (by [Ethan Schoonover](http://ethanschoonover.com/solarized), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Solarized Dark](screenshots/prism-base16-solarized.dark.png)](themes/prism-base16-solarized.dark.css)
 
-* [__Base16 Solarized Light__](themes/prism-base16-solarized.light.css) (by [Ethan Schoonover](http://ethanschoonover.com/solarized), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Solarized Light__](themes/prism-base16-solarized.light.css) (by [Ethan Schoonover](http://ethanschoonover.com/solarized), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Solarized Light](screenshots/prism-base16-solarized.light.png)](themes/prism-base16-solarized.light.css)
 
-* [__Base16 Summerfruit Dark__](themes/prism-base16-summerfruit.dark.css) (by [Christopher Corley](http://cscorley.github.io/), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Summerfruit Dark__](themes/prism-base16-summerfruit.dark.css) (by [Christopher Corley](http://cscorley.github.io/), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Summerfruit Dark](screenshots/prism-base16-summerfruit.dark.png)](themes/prism-base16-summerfruit.dark.css)
 
-* [__Base16 Summerfruit Light__](themes/prism-base16-summerfruit.light.css) (by [Christopher Corley](http://cscorley.github.io/), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Summerfruit Light__](themes/prism-base16-summerfruit.light.css) (by [Christopher Corley](http://cscorley.github.io/), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Summerfruit Light](screenshots/prism-base16-summerfruit.light.png)](themes/prism-base16-summerfruit.light.css)
 
-* [__Base16 Tomorrow Dark__](themes/prism-base16-tomorrow.dark.css) (by [Chris Kempson](http://chriskempson.com), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Tomorrow Dark__](themes/prism-base16-tomorrow.dark.css) (by [Chris Kempson](http://chriskempson.com), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Tomorrow Dark](screenshots/prism-base16-tomorrow.dark.png)](themes/prism-base16-tomorrow.dark.css)
 
-* [__Base16 Twilight Dark__](themes/prism-base16-twilight.dark.css) (by [David Hart](http://hart-dev.com), based on [Base16 color scheme](https://github.com/Base16 color scheme))<br />
+* [__Base16 Twilight Dark__](themes/prism-base16-twilight.dark.css) (by [David Hart](http://hart-dev.com), based on [Base16 color scheme](https://github.com/chriskempson/base16))<br />
 [![Base16 Twilight Dark](screenshots/prism-base16-twilight.dark.png)](themes/prism-base16-twilight.dark.css)
 
 * [__CB__](themes/prism-cb.css) (by [atelierbram](https://github.com/atelierbram), based on [Syntax Highlighter CB Plugin](https://github.com/Syntax Highlighter CB Plugin))<br />
 [![CB](screenshots/prism-cb.png)](themes/prism-cb.css)
 
-* [__Coy without shadows__](themes/prism-coy-without-shadows.css) (by [RunDevelopment](https://github.com/RunDevelopment), based on [Coy theme for prism.js](https://github.com/Coy theme for prism.js))<br />
+* [__Coy without shadows__](themes/prism-coy-without-shadows.css) (by [RunDevelopment](https://github.com/RunDevelopment), based on [Coy theme for prism.js](https://github.com/PrismJS/prism/blob/master/themes/prism-coy.css))<br />
 [![Coy without shadows](screenshots/prism-coy-without-shadows.png)](themes/prism-coy-without-shadows.css)
 
-* [__Darcula__](themes/prism-darcula.css) (by [Alexandre Paradis](service.paradis@gmail.com), based on [Jetbrain's IntelliJ Darcula Theme](https://github.com/bulenkov/Darcula))<br />
+* [__Darcula__](themes/prism-darcula.css) (by [Alexandre Paradis](mailto:service.paradis@gmail.com), based on [Jetbrain's IntelliJ Darcula Theme](https://github.com/bulenkov/Darcula))<br />
 [![Darcula](screenshots/prism-darcula.png)](themes/prism-darcula.css)
 
-* [__desert__](themes/prism-desert.css) (by [Andreas Mueller](webmaster@am-wd.de))<br />
+* [__desert__](themes/prism-desert.css) (by [Andreas Mueller](mailto:webmaster@am-wd.de))<br />
 [![desert](screenshots/prism-desert.png)](themes/prism-desert.css)
 
 * [__Dracula__](themes/prism-dracula.css) (originally by [Zeno Rocha](https://github.com/zenorocha), adapted by [Albert Vallverdu](https://github.com/byverdu))<br />
@@ -203,10 +203,10 @@ See our [Contributing](CONTRIBUTING.md) guide.
 * [__Duotone Space__](themes/prism-duotone-space.css) (by [Simurai](https://github.com/simurai), based on [DuoTone Dark Space Syntax theme for Atom](https://github.com/simurai/duotone-dark-space-syntax))<br />
 [![Duotone Space](screenshots/prism-duotone-space.png)](themes/prism-duotone-space.css)
 
-* [__EA__](themes/prism-ea.css) (by [Jan T. Sott](https://github.com/Jan T. Sott), based on [Hopscotch](https://github.com/Hopscotch))<br />
+* [__EA__](themes/prism-ea.css) (by [Jan T. Sott](https://github.com/idleberg), based on [Hopscotch](https://github.com/Hopscotch))<br />
 [![EA](screenshots/prism-ea.png)](themes/prism-ea.css)
 
-* [__Eclipse__](themes/prism-eclipse.css) (by [Andreas Mueller](webmaster@am-wd.de))<br />
+* [__Eclipse__](themes/prism-eclipse.css) (by [Andreas Mueller](mailto:webmaster@am-wd.de))<br />
 [![Eclipse](screenshots/prism-eclipse.png)](themes/prism-eclipse.css)
 
 * [__GHColors__](themes/prism-ghcolors.css) (by [Avi Aryan](http://aviaryan.in), based on [Github syntax coloring](https://github.com/Github syntax coloring))<br />
@@ -224,16 +224,16 @@ See our [Contributing](CONTRIBUTING.md) guide.
 * [__Material Oceanic__](themes/prism-material-oceanic.css) (by [dutchenkoOleg](https://github.com/dutchenkoOleg))<br />
 [![Material Oceanic](screenshots/prism-material-oceanic.png)](themes/prism-material-oceanic.css)
 
-* [__Monokai__](themes/prism-monokai.css) (by [Andreas Mueller](webmaster@am-wd.de))<br />
+* [__Monokai__](themes/prism-monokai.css) (by [Andreas Mueller](mailto:webmaster@am-wd.de))<br />
 [![Monokai](screenshots/prism-monokai.png)](themes/prism-monokai.css)
 
-* [__Nord__](themes/prism-nord.css) (originally by [Arctic Ice Studio](https://github.com/Arctic Ice Studio), adapted by [Zane Hitchcoxc (@zwhitchcox) and Gabriel Ramos](https://github.com/gabrieluizramos))<br />
+* [__Nord__](themes/prism-nord.css) (originally by [Arctic Ice Studio](https://github.com/Arctic Ice Studio), adapted by [Zane Hitchcoxc](https://github.com/zwhitchcox) and [Gabriel Ramos](https://github.com/gabrieluizramos))<br />
 [![Nord](screenshots/prism-nord.png)](themes/prism-nord.css)
 
 * [__prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML__](themes/prism-nova.css) (by [Rose Pritchard](https://github.com/Rose Pritchard))<br />
 [![prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML](screenshots/prism-nova.png)](themes/prism-nova.css)
 
-* [__obsidian2__](themes/prism-obsidian2.css) (by [Andreas Mueller](webmaster@am-wd.de))<br />
+* [__obsidian2__](themes/prism-obsidian2.css) (by [Andreas Mueller](mailto:webmaster@am-wd.de))<br />
 [![obsidian2](screenshots/prism-obsidian2.png)](themes/prism-obsidian2.css)
 
 * [__Panda Syntax__](themes/prism-panda.css) (by [Siamak Mokhtari](http://github.com/siamak/))<br />
@@ -260,5 +260,5 @@ See our [Contributing](CONTRIBUTING.md) guide.
 * [__Xonokai__](themes/prism-xonokai.css) (by [atelierbram](https://github.com/atelierbram), based on [https://github.com/MoOx/sass-prism-theme-base by Maxime Thirouin ~ MoOx --> http://moox.fr/ , which is Loosely based on Monokai textmate theme](https://github.com/https://github.com/MoOx/sass-prism-theme-base by Maxime Thirouin ~ MoOx --> http://moox.fr/ , which is Loosely based on Monokai textmate theme))<br />
 [![Xonokai](screenshots/prism-xonokai.png)](themes/prism-xonokai.css)
 
-* [__Zenburn__](themes/prism-zenburn.css) (by [Andreas Mueller](webmaster@am-wd.de))<br />
+* [__Zenburn__](themes/prism-zenburn.css) (by [Andreas Mueller](mailto:webmaster@am-wd.de))<br />
 [![Zenburn](screenshots/prism-zenburn.png)](themes/prism-zenburn.css)

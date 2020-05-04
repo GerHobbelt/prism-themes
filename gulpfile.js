@@ -135,6 +135,12 @@ async function updateReadme() {
             return `[${entity}](https://github.com/${entity})`;
         } else if (entity.link) {
             return `[${entity.name}](${entity.link})`;
+        } else if (Array.isArray(entity)) {
+        	let rv = [];
+        	for (const e of entity) {
+        		rv.push(printEntity(e));
+        	}
+            return rv.join(' and ');
         } else {
             return entity.name;
         }

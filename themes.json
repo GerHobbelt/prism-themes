@@ -4,7 +4,7 @@
             "title": "256-grayvim",
             "owner": {
                 "name": "Andreas Mueller",
-                "link": "webmaster@am-wd.de"
+                "link": "mailto:webmaster@am-wd.de"
             }
         },
         "a11y-dark": {
@@ -28,7 +28,10 @@
                 "name": "Jannik Siebert",
                 "link": "https://github.com/janniks"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -40,7 +43,10 @@
                 "name": "Bram de Haan",
                 "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -52,7 +58,10 @@
                 "name": "Bram de Haan",
                 "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -64,7 +73,10 @@
                 "name": "Bram de Haan",
                 "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -76,7 +88,10 @@
                 "name": "Bram de Haan",
                 "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -88,7 +103,10 @@
                 "name": "Bram de Haan",
                 "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -100,7 +118,10 @@
                 "name": "Bram de Haan",
                 "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -112,7 +133,10 @@
                 "name": "Bram de Haan",
                 "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -124,7 +148,10 @@
                 "name": "Bram de Haan",
                 "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -136,7 +163,10 @@
                 "name": "Bram de Haan",
                 "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -148,7 +178,10 @@
                 "name": "Bram de Haan",
                 "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -160,7 +193,10 @@
                 "name": "Bram de Haan",
                 "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside/"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -172,7 +208,10 @@
                 "name": "Bram de Haan",
                 "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside/"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -184,7 +223,10 @@
                 "name": "Bram de Haan",
                 "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -196,7 +238,10 @@
                 "name": "Bram de Haan",
                 "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -208,7 +253,10 @@
                 "name": "Bram de Haan",
                 "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -220,7 +268,10 @@
                 "name": "Bram de Haan",
                 "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -232,7 +283,10 @@
                 "name": "Bram de Haan",
                 "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside/"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -244,7 +298,10 @@
                 "name": "Bram de Haan",
                 "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside/"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -256,7 +313,10 @@
                 "name": "Bram de Haan",
                 "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -268,7 +328,10 @@
                 "name": "Bram de Haan",
                 "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -280,7 +343,10 @@
                 "name": "Timothée Poisot",
                 "link": "http://github.com/tpoisot"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -292,7 +358,10 @@
                 "name": "Chris Kempson",
                 "link": "http://chriskempson.com"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -304,7 +373,10 @@
                 "name": "Chris Kempson",
                 "link": "http://chriskempson.com"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -316,7 +388,10 @@
                 "name": "Seth Wright",
                 "link": "http://sethawright.com"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -328,7 +403,10 @@
                 "name": "Alexandre Gavioli",
                 "link": "https://github.com/Alexx2/"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -340,7 +418,10 @@
                 "name": "Alexandre Gavioli",
                 "link": "https://github.com/Alexx2/"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -352,7 +433,10 @@
                 "name": "Chris Kempson",
                 "link": "http://chriskempson.com"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -364,7 +448,10 @@
                 "name": "Jannik Siebert",
                 "link": "https://github.com/janniks"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -372,8 +459,14 @@
         },
         "base16-hopscotch.dark": {
             "title": "Base16 Hopscotch Dark",
-            "owner": "Jan T. Sott",
-            "basedOn": "Base16 color scheme",
+            "owner": {
+                "name": "Jan T. Sott",
+                "link": "https://github.com/idleberg"
+            },
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -381,8 +474,14 @@
         },
         "base16-isotope.dark": {
             "title": "Base16 Isotope Dark",
-            "owner": "Jan T. Sott",
-            "basedOn": "Base16 color scheme",
+            "owner": {
+                "name": "Jan T. Sott",
+                "link": "https://github.com/idleberg"
+            },
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -394,7 +493,10 @@
                 "name": "Alexandre Gavioli",
                 "link": "http://github.com/Alexx2/"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -406,7 +508,10 @@
                 "name": "Alexandre Gavioli",
                 "link": "http://github.com/Alexx2/"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -418,7 +523,10 @@
                 "name": "Chris Kempson",
                 "link": "http://chriskempson.com"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -430,7 +538,10 @@
                 "name": "Wimer Hazenberg",
                 "link": "http://www.monokai.nl"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -442,7 +553,10 @@
                 "name": "Chris Kempson",
                 "link": "http://chriskempson.com"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -450,8 +564,14 @@
         },
         "base16-paraiso.dark": {
             "title": "Base16 Paraiso Dark",
-            "owner": "Jan T. Sott",
-            "basedOn": "Base16 color scheme",
+            "owner": {
+                "name": "Jan T. Sott",
+                "link": "https://github.com/idleberg"
+            },
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -459,8 +579,14 @@
         },
         "base16-paraiso.light": {
             "title": "Base16 Paraiso Light",
-            "owner": "Jan T. Sott",
-            "basedOn": "Base16 color scheme",
+            "owner": {
+                "name": "Jan T. Sott",
+                "link": "https://github.com/idleberg"
+            },
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -472,7 +598,10 @@
                 "name": "Ryan Bates",
                 "link": "http://railscasts.com"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -484,7 +613,10 @@
                 "name": "Ethan Schoonover",
                 "link": "http://ethanschoonover.com/solarized"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -496,7 +628,10 @@
                 "name": "Ethan Schoonover",
                 "link": "http://ethanschoonover.com/solarized"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -508,7 +643,10 @@
                 "name": "Christopher Corley",
                 "link": "http://cscorley.github.io/"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -520,7 +658,10 @@
                 "name": "Christopher Corley",
                 "link": "http://cscorley.github.io/"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -532,7 +673,10 @@
                 "name": "Chris Kempson",
                 "link": "http://chriskempson.com"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -544,7 +688,10 @@
                 "name": "David Hart",
                 "link": "http://hart-dev.com"
             },
-            "basedOn": "Base16 color scheme",
+            "basedOn": {
+                "name": "Base16 color scheme",
+                "link": "https://github.com/chriskempson/base16"
+            },
             "originalOwner": {
                 "name": "Chris Kempson",
                 "link": "https://github.com/chriskempson/base16"
@@ -562,14 +709,17 @@
         "coy-without-shadows": {
             "title": "Coy without shadows",
             "owner": "RunDevelopment",
-            "basedOn": "Coy theme for prism.js",
+            "basedOn": {
+                "name": "Coy theme for prism.js",
+                "link": "https://github.com/PrismJS/prism/blob/master/themes/prism-coy.css"
+            },
             "originalOwner": "Tim Shedor"
         },
         "darcula": {
             "title": "Darcula",
             "owner": {
                 "name": "Alexandre Paradis",
-                "link": "service.paradis@gmail.com"
+                "link": "mailto:service.paradis@gmail.com"
             },
             "basedOn": {
                 "name": "Jetbrain's IntelliJ Darcula Theme",
@@ -580,7 +730,7 @@
             "title": "desert",
             "owner": {
                 "name": "Andreas Mueller",
-                "link": "webmaster@am-wd.de"
+                "link": "mailto:webmaster@am-wd.de"
             }
         },
         "dracula": {
@@ -663,13 +813,16 @@
         "ea": {
             "title": "EA",
             "basedOn": "Hopscotch",
-            "owner": "Jan T. Sott"
+            "owner": {
+                "name": "Jan T. Sott",
+                "link": "https://github.com/idleberg"
+            }
         },
         "eclipse": {
             "title": "Eclipse",
             "owner": {
                 "name": "Andreas Mueller",
-                "link": "webmaster@am-wd.de"
+                "link": "mailto:webmaster@am-wd.de"
             }
         },
         "ghcolors": {
@@ -703,15 +856,21 @@
             "title": "Monokai",
             "owner": {
                 "name": "Andreas Mueller",
-                "link": "webmaster@am-wd.de"
+                "link": "mailto:webmaster@am-wd.de"
             }
         },
         "nord": {
             "title": "Nord",
-            "owner": {
-                "name": "Zane Hitchcoxc (@zwhitchcox) and Gabriel Ramos",
-                "link": "https://github.com/gabrieluizramos"
-            },
+            "owner": [
+                {
+                    "name": "Zane Hitchcoxc",
+                    "link": "https://github.com/zwhitchcox"
+                },
+                {
+                    "name": "Gabriel Ramos",
+                    "link": "https://github.com/gabrieluizramos"
+                }
+            ],
             "originalOwner": "Arctic Ice Studio"
         },
         "nova": {
@@ -722,7 +881,7 @@
             "title": "obsidian2",
             "owner": {
                 "name": "Andreas Mueller",
-                "link": "webmaster@am-wd.de"
+                "link": "mailto:webmaster@am-wd.de"
             }
         },
         "panda": {
@@ -794,7 +953,7 @@
             "title": "Zenburn",
             "owner": {
                 "name": "Andreas Mueller",
-                "link": "webmaster@am-wd.de"
+                "link": "mailto:webmaster@am-wd.de"
             }
         }
     }

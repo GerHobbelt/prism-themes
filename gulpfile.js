@@ -4,6 +4,7 @@ const captureWebsite = require('capture-website');
 const path = require('path');
 const { JSDOM } = require('jsdom');
 
+const DEBUG = 0;
 
 /**
  * @type {Object<string, ThemesEntry>}
@@ -18,7 +19,6 @@ const { JSDOM } = require('jsdom');
  */
 const themeCatalog = require('./themes.json').themes;
 
-
 const themesDir = path.join(__dirname, 'themes');
 const screenshotDir = path.join(__dirname, 'screenshots');
 const getThemePath = theme => path.join(themesDir, `prism-${theme}.css`);
@@ -27,8 +27,32 @@ const getScreenshotPath = theme => path.join(screenshotDir, `prism-${theme}.png`
 /**
  * Returns the names of all themes. This includes the `prism-` prefix.
  */
-async function getThemes() {
-	return Object.keys(themeCatalog);
+async function getThemes(fromScratch) {
+	let themes = (!fromScratch ? themeCatalog : null) || {};
+	let change = await discoverThemes(themes, !fromScratch);
+	let keys = Object.keys(themes).sort((a, b) => {
+		return a.localeCompare(b, {
+			ignorePunctuation: true,
+			caseFirst: "upper",
+			sensitivity: "base",
+			usage: "sort",
+		});
+	});
+	
+	// re-order themes before (re)writing:
+	let rv = {};
+	for (const i in keys) {
+		const key = keys[i];
+		const theme = themes[key];
+		rv[key] = theme;
+	}
+	//let change = true;
+	themes = rv;
+
+	if (change) {
+		await fs.writeFile('./themes.json', JSON.stringify({themes}, null, 4), 'utf-8');
+	}
+	return keys;
 }
 
 /**
@@ -247,9 +271,225 @@ async function checkRequirements() {
 }
 
 
+function cleanTitleUp(title) {
+	if (!title) return title;
+	title = title.replace(/ Theme$/i, '');
+	return title.trim();
+}
+
+function cleanOwnerUp(owner) {
+	if (!owner) return owner;
+	owner = owner.replace(/ adapted from .*$/i, '');
+	owner = owner.replace(/,\s*$/, '');
+	return owner.trim();
+}
+
+function peelOwnerApart(owner) {
+	let m = /^(.+?),? <(.+)>/i.exec(owner);
+	if (m) {
+		return {
+			name: cleanOwnerUp(m[1]),
+			link: m[2].trim(),
+		};
+	}
+	m = /^(.+) \((http.+)\)/i.exec(owner);
+	if (m) {
+		return {
+			name: cleanOwnerUp(m[1]),
+			link: m[2].trim(),
+		};
+	}
+	m = /^(.+) [\(\[]@(.+)[\)\]]/i.exec(owner);
+	if (m) {
+		return {
+			name: cleanOwnerUp(m[1]),
+			link: 'https://github.com/' + m[2].trim(),
+		};
+	}
+	m = /^(.+):\s*(http.+)/i.exec(owner);
+	if (m) {
+		return {
+			name: cleanOwnerUp(m[1]),
+			link: m[2].trim(),
+		};
+	}
+	m = /^(.+) from (http.+)/i.exec(owner);
+	if (m) {
+		return {
+			name: cleanOwnerUp(m[1]),
+			link: m[2].trim(),
+		};
+	}
+	return cleanOwnerUp(owner);
+}
+
+async function discoverTheme(theme) {
+	let p = getThemePath(theme);
+	let css = (await fs.readFile(p, 'utf-8')).trim().replace(/(?:\r\n?)+/g, '\n');
+
+	css = css.split("*/")[0];
+	css = css.replace(/\/\*+/, '').split("\n").map(f => f.replace(/^\s*\*/, '').replace(/\t/g, ' ').trim()).filter(f => f).join('\n');
+
+	// hacky check to see if we actually have a header to decode:
+	if (css.includes('code[class')) {
+		return null;
+	}
+
+ 	let m = /(?:prism\.js)?(.+) theme for (.+) by (.*)/i.exec(css);
+ 	let title = m && m[1].trim();
+ 	let author = m && m[3] && m[3].trim();
+	let originalOwner = null;
+ 	if (DEBUG) console.error(`\n\n################################\ndiscover CSS 4:\n${m} --> title: "${title}"`);
+
+ 	if (!m) {
+	 	m = /(?:prism\.js)?(.+) theme for (.+)/i.exec(css);
+	 	title = m && m[1].trim();
+	 	author = null;
+	 	if (title && title.toLowerCase().includes('based on')) {
+	 		m = null;
+	 		title = null;
+	 	}
+	 	if (DEBUG) console.error(`\n\n################################\ndiscover CSS 4.0:\n${m} --> title: "${title}", author: "${author}"`);
+ 	}
+ 	if (!m) {
+ 		m = /Name: (.+)\nAuthor: (.+)/i.exec(css);
+	 	title = m && m[1].trim();
+	 	author = m && m[2].trim();
+	 	if (DEBUG) console.error(`\n\n################################\ndiscover CSS 4.1:\n${m} --> title: "${title}", author: "${author}"`);
+ 	}
+ 	if (!m) {
+ 		m = /(?:prism\.js)?(.+)Theme by (.+)/i.exec(css);
+	 	title = m && m[1].trim();
+	 	author = m && m[2].trim();
+	 	if (DEBUG) console.error(`\n\n################################\ndiscover CSS 4.2:\n${m} --> title: "${title}", author: "${author}"`);
+ 	}
+ 	if (!m) {
+ 		m = /(?:prism\.js)?(.+) Originally by (.+)/i.exec(css);
+	 	title = m && m[1].trim();
+	 	originalOwner = m && m[2].trim();
+	 	if (DEBUG) console.error(`\n\n################################\ndiscover CSS 4.3:\n${m} --> title: "${title}", originalOwner: "${originalOwner}"`);
+ 	}
+ 	if (!m) {
+ 		m = /(?:prism\.js)?(.+)[\s\n]+(?:Theme )?by (.+)/i.exec(css);
+	 	title = m && m[1].trim();
+	 	author = m && m[2].trim();
+	 	if (DEBUG) console.error(`\n\n################################\ndiscover CSS 4.4:\n${m} --> title: "${title}", author: "${author}"`);
+ 	}
+
+ 	if (!author) {
+ 		m = /^@author(.+)/im.exec(css);
+	 	author = m && m[1].trim();
+	 	if (DEBUG) console.error(`\n\n################################\ndiscover CSS 4.5:\n${m} --> title: "${title}", author: "${author}"`);
+ 	}
+ 	if (!author) {
+ 		m = /^Author: (.+)/im.exec(css);
+	 	author = m && m[1].trim();
+	 	if (DEBUG) console.error(`\n\n################################\ndiscover CSS 4.6:\n${m} --> title: "${title}", author: "${author}"`);
+ 	}
+ 	if (!author) {
+ 		m = /^Ported for PrismJS by (.+)/im.exec(css);
+	 	author = m && m[1].trim();
+	 	if (DEBUG) console.error(`\n\n################################\ndiscover CSS 4.7:\n${m} --> title: "${title}", author: "${author}"`);
+ 	}
+
+ 	if (!title) {
+ 		title = css.split('\n')[0].trim();
+ 		if (!title) {
+ 			title = null;
+ 		}
+ 	}
+
+ 	let basedOn = null;
+ 	m = /^based on (.+)'s (.+ theme for prism\.js)/im.exec(css);
+ 	if (m) {
+	 	basedOn = m && m[2].trim();
+	 	originalOwner = m && m[1].trim();
+	 	if (DEBUG) console.error(`\n\n################################\ndiscover CSS 5:\n${m} --> basedOn: "${basedOn}"`);
+	}
+ 	if (!basedOn) {
+	 	m = /^based on (.+)/im.exec(css);
+	 	let basedOn = m && m[1].trim();
+	 	if (DEBUG) console.error(`\n\n################################\ndiscover CSS 5.0:\n${m} --> basedOn: "${basedOn}"`);
+	}
+ 	if (!basedOn) {
+	 	m = /based on:[\s\n]+(.+)/im.exec(css);
+	 	basedOn = m && m[1].trim();
+	 	if (DEBUG) console.error(`\n\n################################\ndiscover CSS 5.1:\n${m} --> basedOn: "${basedOn}"`);
+	}
+ 	if (!basedOn) {
+	 	m = /^inspired by (.+)/im.exec(css);
+	 	basedOn = m && m[1].trim();
+	 	if (DEBUG) console.error(`\n\n################################\ndiscover CSS 5.2:\n${m} --> basedOn: "${basedOn}"`);
+	}
+ 	if (!basedOn) {
+	 	m = /^original (.+)/im.exec(css);
+	 	basedOn = m && m[1].trim();
+	 	if (DEBUG) console.error(`\n\n################################\ndiscover CSS 5.3:\n${m} --> basedOn: "${basedOn}"`);
+	}
+ 	if (!basedOn) {
+	 	m = /\badapted from (.+)/im.exec(css);
+	 	basedOn = m && m[1].trim();
+	 	if (DEBUG) console.error(`\n\n################################\ndiscover CSS 5.4:\n${m} --> basedOn: "${basedOn}"`);
+	}
+
+	if (basedOn && !originalOwner) {
+		m = /(.+) by (.+)/i.exec(basedOn);
+		if (m) {
+			originalOwner = m[2].trim();
+			basedOn = m[1].trim();
+		}
+	}
+
+	// peel the authors apart into name+link where-ever possible:
+	author = peelOwnerApart(author);
+	originalOwner = peelOwnerApart(originalOwner);
+	basedOn = peelOwnerApart(basedOn);
+
+	return {
+		title: cleanTitleUp(title || theme),
+		owner: author || originalOwner || undefined,
+		basedOn: basedOn || undefined,
+		originalOwner: originalOwner || undefined,
+	};
+}
+
+
+async function discoverThemes(themes, verbose) {
+	// first scan the themese directory:
+	let dirlist = (await fs.readdir(themesDir)).map(f => (/^.+(?=\.css$)/.exec(f) || [''])[0].replace(/^prism-/, '')).filter(f => f);
+	let change = false;
+
+	for (const theme of dirlist) {
+		if (!themes[theme]) {
+			if (verbose) console.error(`Theme ${theme} is not yet listed in themes.json.`);
+			let rec = await discoverTheme(theme);
+			if (rec) {
+				if (verbose) console.error(`--> Theme ${theme} added to set in themes.json.`);
+				change = true;
+				themes[theme] = rec;
+			}
+		}
+	}
+
+	return change;
+}
+
 exports['update-readme'] = updateReadme;
 exports.screenshot = screenshotMissingThemes;
 exports['screenshot-all'] = screenshotAllThemes;
 exports.build = parallel(screenshotMissingThemes, updateReadme);
 
 exports.check = parallel(checkScreenshots, checkCSS, checkRequirements)
+exports.regenThemeSetFromScratch = async () => {
+	if (10) {
+		await getThemes(true);
+	} else {
+		console.error(JSON.stringify([
+			await discoverTheme('coy-without-shadows'),
+			await discoverTheme('dracula'),
+			await discoverTheme('nord'),
+			await discoverTheme('xonokai'),
+			await discoverTheme('darcula'),
+		], null, 2));
+	}
+}

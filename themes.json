@@ -1,25 +1,371 @@
 {
     "themes": {
+        "256-grayvim": {
+            "title": "256-grayvim",
+            "owner": {
+                "name": "Andreas Mueller",
+                "link": "webmaster@am-wd.de"
+            }
+        },
         "a11y-dark": {
             "title": "a11y Dark",
             "owner": "ericwbailey"
         },
         "atom-dark": {
             "title": "Atom Dark",
-            "owner": "gibsjose",
+            "owner": {
+                "name": "Joe Gibson",
+                "link": "https://github.com/gibsjose"
+            },
             "basedOn": {
                 "name": "Atom Dark Syntax theme",
                 "link": "https://github.com/atom/atom-dark-syntax"
             }
         },
-        "base16-ateliersulphurpool.light": {
-            "title": "Ateliersulphurpool-light",
+        "base16-ateliercave.dark": {
+            "title": "Base16 Atelier Cave Dark",
             "owner": {
                 "name": "Bram de Haan",
-                "link": "https://github.com/atelierbram"
+                "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-ateliercave.light": {
+            "title": "Base16 Atelier Cave Light",
+            "owner": {
+                "name": "Bram de Haan",
+                "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-atelierdune.dark": {
+            "title": "Base16 Atelier Dune Dark",
+            "owner": {
+                "name": "Bram de Haan",
+                "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-atelierdune.light": {
+            "title": "Base16 Atelier Dune Light",
+            "owner": {
+                "name": "Bram de Haan",
+                "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-atelierestuary.dark": {
+            "title": "Base16 Atelier Estuary Dark",
+            "owner": {
+                "name": "Bram de Haan",
+                "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-atelierestuary.light": {
+            "title": "Base16 Atelier Estuary Light",
+            "owner": {
+                "name": "Bram de Haan",
+                "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-atelierforest.dark": {
+            "title": "Base16 Atelier Forest Dark",
+            "owner": {
+                "name": "Bram de Haan",
+                "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-atelierforest.light": {
+            "title": "Base16 Atelier Forest Light",
+            "owner": {
+                "name": "Bram de Haan",
+                "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-atelierheath.dark": {
+            "title": "Base16 Atelier Heath Dark",
+            "owner": {
+                "name": "Bram de Haan",
+                "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-atelierheath.light": {
+            "title": "Base16 Atelier Heath Light",
+            "owner": {
+                "name": "Bram de Haan",
+                "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-atelierlakeside.dark": {
+            "title": "Base16 Atelier Lakeside Dark",
+            "owner": {
+                "name": "Bram de Haan",
+                "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside/"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-atelierlakeside.light": {
+            "title": "Base16 Atelier Lakeside Light",
+            "owner": {
+                "name": "Bram de Haan",
+                "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside/"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-atelierplateau.dark": {
+            "title": "Base16 Atelier Plateau Dark",
+            "owner": {
+                "name": "Bram de Haan",
+                "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-atelierplateau.light": {
+            "title": "Base16 Atelier Plateau Light",
+            "owner": {
+                "name": "Bram de Haan",
+                "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-ateliersavanna.dark": {
+            "title": "Base16 Atelier Savanna Dark",
+            "owner": {
+                "name": "Bram de Haan",
+                "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-ateliersavanna.light": {
+            "title": "Base16 Atelier Savanna Light",
+            "owner": {
+                "name": "Bram de Haan",
+                "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-atelierseaside.dark": {
+            "title": "Base16 Atelier Seaside Dark",
+            "owner": {
+                "name": "Bram de Haan",
+                "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside/"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-atelierseaside.light": {
+            "title": "Base16 Atelier Seaside Light",
+            "owner": {
+                "name": "Bram de Haan",
+                "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside/"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-ateliersulphurpool.dark": {
+            "title": "Base16 Atelier Sulphurpool Dark",
+            "owner": {
+                "name": "Bram de Haan",
+                "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-ateliersulphurpool.light": {
+            "title": "Base16 Atelier Sulphurpool Light",
+            "owner": {
+                "name": "Bram de Haan",
+                "link": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-paraiso.dark": {
+            "title": "Base16 Paraiso Dark",
+            "owner": "Jan T. Sott",
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-paraiso.light": {
+            "title": "Base16 Paraiso Light",
+            "owner": "Jan T. Sott",
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-railscasts.dark": {
+            "title": "Base16 Railscasts Dark",
+            "owner": {
+                "name": "Ryan Bates",
+                "link": "http://railscasts.com"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-solarized.dark": {
+            "title": "Base16 Solarized Dark",
+            "owner": {
+                "name": "Ethan Schoonover",
+                "link": "http://ethanschoonover.com/solarized"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-solarized.light": {
+            "title": "Base16 Solarized Light",
+            "owner": {
+                "name": "Ethan Schoonover",
+                "link": "http://ethanschoonover.com/solarized"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-summerfruit.dark": {
+            "title": "Base16 Summerfruit Dark",
+            "owner": {
+                "name": "Christopher Corley",
+                "link": "http://cscorley.github.io/"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-summerfruit.light": {
+            "title": "Base16 Summerfruit Light",
+            "owner": {
+                "name": "Christopher Corley",
+                "link": "http://cscorley.github.io/"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-tomorrow.dark": {
+            "title": "Base16 Tomorrow Dark",
+            "owner": {
+                "name": "Chris Kempson",
+                "link": "http://chriskempson.com"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-twilight.dark": {
+            "title": "Base16 Twilight Dark",
+            "owner": {
+                "name": "David Hart",
+                "link": "http://hart-dev.com"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
             }
         },
         "cb": {
+            "basedOn": "Syntax Highlighter CB Plugin",
             "title": "CB",
             "owner": "atelierbram",
             "originalOwner": {
@@ -27,18 +373,39 @@
                 "link": "https://bitbucket.org/cbavota"
             }
         },
+        "coy-without-shadows": {
+            "title": "Coy without shadows",
+            "owner": "RunDevelopment",
+            "basedOn": "Coy theme for prism.js",
+            "originalOwner": "Tim Shedor"
+        },
         "darcula": {
             "title": "Darcula",
-            "owner": "service-paradis",
+            "owner": {
+                "name": "Alexandre Paradis",
+                "link": "service.paradis@gmail.com"
+            },
             "basedOn": {
-                "name": "Jetbrain's Darcula theme"
+                "name": "Jetbrain's IntelliJ Darcula Theme",
+                "link": "https://github.com/bulenkov/Darcula"
+            }
+        },
+        "desert": {
+            "title": "desert",
+            "owner": {
+                "name": "Andreas Mueller",
+                "link": "webmaster@am-wd.de"
             }
         },
         "dracula": {
             "title": "Dracula",
             "owner": {
-                "name": "Byverdu",
+                "name": "Albert Vallverdu",
                 "link": "https://github.com/byverdu"
+            },
+            "originalOwner": {
+                "name": "Zeno Rocha",
+                "link": "https://github.com/zenorocha"
             }
         },
         "duotone-dark": {
@@ -107,9 +474,25 @@
                 "link": "https://github.com/simurai/duotone-dark-space-syntax"
             }
         },
+        "ea": {
+            "title": "EA",
+			"basedOn": "Hopscotch",
+            "owner": "Jan T. Sott"
+        },
+        "eclipse": {
+            "title": "Eclipse",
+            "owner": {
+                "name": "Andreas Mueller",
+                "link": "webmaster@am-wd.de"
+            }
+        },
         "ghcolors": {
             "title": "GHColors",
-            "owner": "aviaryan"
+            "owner": {
+                "name": "Avi Aryan",
+                "link": "http://aviaryan.in"
+            },
+            "basedOn": "Github syntax coloring"
         },
         "hopscotch": {
             "title": "Hopscotch",
@@ -129,6 +512,32 @@
         "material-oceanic": {
             "title": "Material Oceanic",
             "owner": "dutchenkoOleg"
+        },
+        "monokai": {
+            "title": "Monokai",
+            "owner": {
+                "name": "Andreas Mueller",
+                "link": "webmaster@am-wd.de"
+            }
+        },
+        "nord": {
+            "title": "Nord",
+            "owner": {
+                "name": "Zane Hitchcoxc (@zwhitchcox) and Gabriel Ramos",
+                "link": "https://github.com/gabrieluizramos"
+            },
+            "originalOwner": "Arctic Ice Studio"
+        },
+        "nova": {
+            "title": "prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML",
+            "owner": "Rose Pritchard"
+        },
+        "obsidian2": {
+            "title": "obsidian2",
+            "owner": {
+                "name": "Andreas Mueller",
+                "link": "webmaster@am-wd.de"
+            }
         },
         "pojoaque": {
             "title": "Pojoaque",
@@ -153,19 +562,31 @@
             },
             "originalOwner": {
                 "name": "Robb Owen",
-                "link": "https://github.com/robb0wen"
+                "link": "https://github.com/Robb0wen"
             }
         },
         "vs": {
             "title": "VS",
-            "owner": "andrewlock"
+            "owner": {
+                "name": "Andrew Lock",
+                "link": "https://andrewlock.net"
+            },
+            "basedOn": "Visual Studio syntax coloring"
         },
         "xonokai": {
             "title": "Xonokai",
+            "basedOn": "https://github.com/MoOx/sass-prism-theme-base by Maxime Thirouin ~ MoOx --> http://moox.fr/ , which is Loosely based on Monokai textmate theme",
             "owner": "atelierbram",
             "originalOwner": {
                 "name": "Maxime Thirouin (MoOx)",
                 "link": "https://github.com/MoOx"
+            }
+        },
+        "zenburn": {
+            "title": "Zenburn",
+            "owner": {
+                "name": "Andreas Mueller",
+                "link": "webmaster@am-wd.de"
             }
         }
     }

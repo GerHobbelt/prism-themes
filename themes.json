@@ -22,6 +22,18 @@
                 "link": "https://github.com/atom/atom-dark-syntax"
             }
         },
+        "base16-ashes.dark": {
+            "title": "Base16 Ashes Dark",
+            "owner": {
+                "name": "Jannik Siebert",
+                "link": "https://github.com/janniks"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
         "base16-ateliercave.dark": {
             "title": "Base16 Atelier Cave Dark",
             "owner": {
@@ -262,6 +274,180 @@
                 "link": "https://github.com/chriskempson/base16"
             }
         },
+        "base16-brewer.dark": {
+            "title": "Base16 Brewer Dark",
+            "owner": {
+                "name": "Timothée Poisot",
+                "link": "http://github.com/tpoisot"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-bright.dark": {
+            "title": "Base16 Bright Dark",
+            "owner": {
+                "name": "Chris Kempson",
+                "link": "http://chriskempson.com"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-chalk.dark": {
+            "title": "Base16 Chalk Dark",
+            "owner": {
+                "name": "Chris Kempson",
+                "link": "http://chriskempson.com"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-google.light": {
+            "title": "Base16 Google Light",
+            "owner": {
+                "name": "Seth Wright",
+                "link": "http://sethawright.com"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-grayscale.dark": {
+            "title": "Base16 Grayscale Dark",
+            "owner": {
+                "name": "Alexandre Gavioli",
+                "link": "https://github.com/Alexx2/"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-grayscale.light": {
+            "title": "Base16 Grayscale Light",
+            "owner": {
+                "name": "Alexandre Gavioli",
+                "link": "https://github.com/Alexx2/"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-greenscreen.dark": {
+            "title": "Base16 Green Screen Dark",
+            "owner": {
+                "name": "Chris Kempson",
+                "link": "http://chriskempson.com"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-harmonic16.dark": {
+            "title": "Base16 harmonic16 Dark",
+            "owner": {
+                "name": "Jannik Siebert",
+                "link": "https://github.com/janniks"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-hopscotch.dark": {
+            "title": "Base16 Hopscotch Dark",
+            "owner": "Jan T. Sott",
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-isotope.dark": {
+            "title": "Base16 Isotope Dark",
+            "owner": "Jan T. Sott",
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-marrakesh.dark": {
+            "title": "Base16 Marrakesh Dark",
+            "owner": {
+                "name": "Alexandre Gavioli",
+                "link": "http://github.com/Alexx2/"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-marrakesh.light": {
+            "title": "Base16 Marrakesh Light",
+            "owner": {
+                "name": "Alexandre Gavioli",
+                "link": "http://github.com/Alexx2/"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-mocha.dark": {
+            "title": "Base16 Mocha Dark",
+            "owner": {
+                "name": "Chris Kempson",
+                "link": "http://chriskempson.com"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-monokai.dark": {
+            "title": "Base16 Monokai Dark",
+            "owner": {
+                "name": "Wimer Hazenberg",
+                "link": "http://www.monokai.nl"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
+        "base16-ocean.dark": {
+            "title": "Base16 Ocean Dark",
+            "owner": {
+                "name": "Chris Kempson",
+                "link": "http://chriskempson.com"
+            },
+            "basedOn": "Base16 color scheme",
+            "originalOwner": {
+                "name": "Chris Kempson",
+                "link": "https://github.com/chriskempson/base16"
+            }
+        },
         "base16-paraiso.dark": {
             "title": "Base16 Paraiso Dark",
             "owner": "Jan T. Sott",
@@ -476,7 +662,7 @@
         },
         "ea": {
             "title": "EA",
-			"basedOn": "Hopscotch",
+            "basedOn": "Hopscotch",
             "owner": "Jan T. Sott"
         },
         "eclipse": {
@@ -539,6 +725,20 @@
                 "link": "webmaster@am-wd.de"
             }
         },
+        "panda": {
+            "title": "Panda Syntax",
+            "owner": {
+                "name": "Siamak Mokhtari",
+                "link": "http://github.com/siamak/"
+            }
+        },
+        "panda2": {
+            "title": "Panda",
+            "owner": {
+                "name": "Javid Izadfar",
+                "link": "https://github.com/Javid-Izadfar"
+            }
+        },
         "pojoaque": {
             "title": "Pojoaque",
             "owner": "atelierbram",
@@ -565,9 +765,6 @@
                 "link": "https://github.com/Robb0wen"
             }
         },
-        "vsc-dark-plus": {
-            "title": "VSC Dark Plus"
-        },
         "vs": {
             "title": "VS",
             "owner": {
@@ -575,6 +772,9 @@
                 "link": "https://andrewlock.net"
             },
             "basedOn": "Visual Studio syntax coloring"
+        },
+        "vsc-dark-plus": {
+            "title": "VSC Dark Plus"
         },
         "xonokai": {
             "title": "Xonokai",

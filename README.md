@@ -212,20 +212,38 @@ See our [Contributing](CONTRIBUTING.md) guide.
 * [__GHColors__](themes/prism-ghcolors.css) (by [Avi Aryan](http://aviaryan.in), based on [Github syntax coloring](https://github.com/Github syntax coloring))<br />
 [![GHColors](screenshots/prism-ghcolors.png)](themes/prism-ghcolors.css)
 
+* [__Gloom Prism__](themes/prism-gloom.css) (by [Luis Ramirez](https://github.com/luisramirez-m/prism-gloom-theme))<br />
+[![Gloom Prism](screenshots/prism-gloom.png)](themes/prism-gloom.css)
+
 * [__Hopscotch__](themes/prism-hopscotch.css) (by [Jan T. Sott](https://github.com/idleberg))<br />
 [![Hopscotch](screenshots/prism-hopscotch.png)](themes/prism-hopscotch.css)
 
-* [__Material Dark__](themes/prism-material-dark.css) (by [dutchenkoOleg](https://github.com/dutchenkoOleg))<br />
+* [__Material Dark__](themes/prism-material-dark.css) (by [Oleg Dutchenko](https://github.com/dutchenkoOleg/prismjs-material-theme))<br />
 [![Material Dark](screenshots/prism-material-dark.png)](themes/prism-material-dark.css)
 
-* [__Material Light__](themes/prism-material-light.css) (by [dutchenkoOleg](https://github.com/dutchenkoOleg))<br />
+* [__Material Light__](themes/prism-material-light.css) (by [Oleg Dutchenko](https://github.com/dutchenkoOleg/prismjs-material-theme))<br />
 [![Material Light](screenshots/prism-material-light.png)](themes/prism-material-light.css)
 
-* [__Material Oceanic__](themes/prism-material-oceanic.css) (by [dutchenkoOleg](https://github.com/dutchenkoOleg))<br />
+* [__Material Oceanic__](themes/prism-material-oceanic.css) (by [Oleg Dutchenko](https://github.com/dutchenkoOleg/prismjs-material-theme))<br />
 [![Material Oceanic](screenshots/prism-material-oceanic.png)](themes/prism-material-oceanic.css)
 
 * [__Monokai__](themes/prism-monokai.css) (by [Andreas Mueller](mailto:webmaster@am-wd.de))<br />
 [![Monokai](screenshots/prism-monokai.png)](themes/prism-monokai.css)
+
+* [__Monokai__](themes/prism-monokai-swaagie.css) (by [Martijn Swaagman](https://github.com/Swaagie/prismjs-monokai))<br />
+[![Monokai](screenshots/prism-monokai-swaagie.png)](themes/prism-monokai-swaagie.css)
+
+* [__[Night Owl (popular VSCode theme)](https://github.com/sdras/night-owl-vscode-theme)__](themes/prism-night-owl.css) (by [Sarah Drasner](https://github.com/sdras/))<br />
+[![[Night Owl (popular VSCode theme)](https://github.com/sdras/night-owl-vscode-theme)](screenshots/prism-night-owl.png)](themes/prism-night-owl.css)
+
+* [__[Night Owl Light (popular VSCode theme)](https://github.com/sdras/night-owl-vscode-theme)__](themes/prism-night-owl-light.css) (by [Sarah Drasner](https://github.com/sdras/))<br />
+[![[Night Owl Light (popular VSCode theme)](https://github.com/sdras/night-owl-vscode-theme)](screenshots/prism-night-owl-light.png)](themes/prism-night-owl-light.css)
+
+* [__[Night Owl Light No Italics (popular VSCode theme)](https://github.com/sdras/night-owl-vscode-theme)__](themes/prism-night-owl-light-no-italics.css) (by [Sarah Drasner](https://github.com/sdras/))<br />
+[![[Night Owl Light No Italics (popular VSCode theme)](https://github.com/sdras/night-owl-vscode-theme)](screenshots/prism-night-owl-light-no-italics.png)](themes/prism-night-owl-light-no-italics.css)
+
+* [__[Night Owl No Italics (popular VSCode theme)](https://github.com/sdras/night-owl-vscode-theme)__](themes/prism-night-owl-no-italics.css) (by [Sarah Drasner](https://github.com/sdras/))<br />
+[![[Night Owl No Italics (popular VSCode theme)](https://github.com/sdras/night-owl-vscode-theme)](screenshots/prism-night-owl-no-italics.png)](themes/prism-night-owl-no-italics.css)
 
 * [__Nord__](themes/prism-nord.css) (originally by [Arctic Ice Studio](https://github.com/Arctic Ice Studio), adapted by [Zane Hitchcoxc](https://github.com/zwhitchcox) and [Gabriel Ramos](https://github.com/gabrieluizramos))<br />
 [![Nord](screenshots/prism-nord.png)](themes/prism-nord.css)

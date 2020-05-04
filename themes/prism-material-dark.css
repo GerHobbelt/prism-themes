@@ -1,3 +1,9 @@
+/*
+Prism highlighting `material` theme
+
+Author: Oleg Dutchenko (https://github.com/dutchenkoOleg/prismjs-material-theme)
+*/
+
 code[class*="language-"],
 pre[class*="language-"] {
 	text-align: left;

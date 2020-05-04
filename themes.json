@@ -833,6 +833,13 @@
             },
             "basedOn": "Github syntax coloring"
         },
+        "gloom": {
+            "title": "Gloom Prism",
+            "owner": {
+                "name": "Luis Ramirez",
+                "link": "https://github.com/luisramirez-m/prism-gloom-theme"
+            }
+        },
         "hopscotch": {
             "title": "Hopscotch",
             "owner": {
@@ -842,21 +849,65 @@
         },
         "material-dark": {
             "title": "Material Dark",
-            "owner": "dutchenkoOleg"
+            "owner": {
+                "name": "Oleg Dutchenko",
+                "link": "https://github.com/dutchenkoOleg/prismjs-material-theme"
+            }
         },
         "material-light": {
             "title": "Material Light",
-            "owner": "dutchenkoOleg"
+            "owner": {
+                "name": "Oleg Dutchenko",
+                "link": "https://github.com/dutchenkoOleg/prismjs-material-theme"
+            }
         },
         "material-oceanic": {
             "title": "Material Oceanic",
-            "owner": "dutchenkoOleg"
+            "owner": {
+                "name": "Oleg Dutchenko",
+                "link": "https://github.com/dutchenkoOleg/prismjs-material-theme"
+            }
         },
         "monokai": {
             "title": "Monokai",
             "owner": {
                 "name": "Andreas Mueller",
                 "link": "mailto:webmaster@am-wd.de"
+            }
+        },
+        "monokai-swaagie": {
+            "title": "Monokai",
+            "owner": {
+                "name": "Martijn Swaagman",
+                "link": "https://github.com/Swaagie/prismjs-monokai"
+            }
+        },
+        "night-owl": {
+            "title": "[Night Owl (popular VSCode theme)](https://github.com/sdras/night-owl-vscode-theme)",
+            "owner": {
+                "name": "Sarah Drasner",
+                "link": "https://github.com/sdras/"
+            }
+        },
+        "night-owl-light": {
+            "title": "[Night Owl Light (popular VSCode theme)](https://github.com/sdras/night-owl-vscode-theme)",
+            "owner": {
+                "name": "Sarah Drasner",
+                "link": "https://github.com/sdras/"
+            }
+        },
+        "night-owl-light-no-italics": {
+            "title": "[Night Owl Light No Italics (popular VSCode theme)](https://github.com/sdras/night-owl-vscode-theme)",
+            "owner": {
+                "name": "Sarah Drasner",
+                "link": "https://github.com/sdras/"
+            }
+        },
+        "night-owl-no-italics": {
+            "title": "[Night Owl No Italics (popular VSCode theme)](https://github.com/sdras/night-owl-vscode-theme)",
+            "owner": {
+                "name": "Sarah Drasner",
+                "link": "https://github.com/sdras/"
             }
         },
         "nord": {

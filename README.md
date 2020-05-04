@@ -26,6 +26,7 @@ See our [Contributing](CONTRIBUTING.md) guide.
 
 ## Available themes
 
+<<<<<<< HEAD
 * [__256-grayvim__](themes/prism-256-grayvim.css) (by [Andreas Mueller](webmaster@am-wd.de))<br />
 [![256-grayvim](screenshots/prism-256-grayvim.png)](themes/prism-256-grayvim.css)
 
@@ -208,3 +209,15 @@ See our [Contributing](CONTRIBUTING.md) guide.
 
 * [__Zenburn__](themes/prism-zenburn.css) (by [Andreas Mueller](webmaster@am-wd.de))<br />
 [![Zenburn](screenshots/prism-zenburn.png)](themes/prism-zenburn.css)
+=======
+* <p>[__CB__](themes/prism-cb.css) (originally by [C. Bavota](https://bitbucket.org/cbavota), adapted by [atelierbram](https://github.com/atelierbram))<br />
+[![CB](screenshots/prism-cb.png)](themes/prism-cb.css)</p>
+* <p>[__GHColors__](themes/prism-ghcolors.css) (by [aviaryan](https://github.com/aviaryan))<br />
+[![GHColors](screenshots/prism-ghcolors.png)](themes/prism-ghcolors.css)</p>
+* <p>[__Pojoaque__](themes/prism-pojoaque.css) (originally by [Jason Tate](http://web-cms-designs.com/ftopict-10-pojoaque-style-for-highlight-js-code-highlighter.html), adapted by [atelierbram](https://github.com/atelierbram))<br />
+[![Pojoaque](screenshots/prism-pojoaque.png)](themes/prism-pojoaque.css)</p>
+* <p>[__Xonokai__](themes/prism-xonokai.css) (originally by [Maxime Thirouin (MoOx)](https://github.com/MoOx), adapted by [atelierbram](https://github.com/atelierbram))<br />
+[![Xonokai](screenshots/prism-xonokai.png)](themes/prism-xonokai.css)</p>
+* <p>[__Mocha-dark__](themes/prism-base16-mocha.dark.css) (by [Chris Kempson](https://github.com/chriskempson))<br />
+[![Mocha-dark](screenshots/prism-mocha-dark.png)](themes/prism-base16-mocha.dark.css)</p>
+>>>>>>> remotes/atelierbram/Base16-Mocha-dark

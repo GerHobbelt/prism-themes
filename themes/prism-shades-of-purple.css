@@ -25,7 +25,7 @@ pre[class*='language-'] {
 
 	font-family: 'Operator Mono', 'Fira Code', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	font-weight: 400;
-	font-size: 17px;
+	font-size: 1em;
 	line-height: 25px;
 	letter-spacing: 0.5px;
 	text-shadow: 0 1px #222245;
@@ -41,10 +41,6 @@ code[class*='language-']::selection,
 code[class*='language-'] ::selection {
 	color: inherit;
 	background: #a599e9;
-}
-
-pre > code[class*="language-"] {
-	font-size: 1em;
 }
 
 /* Code blocks. */

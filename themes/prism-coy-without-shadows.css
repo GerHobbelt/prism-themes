@@ -39,6 +39,8 @@ pre[class*="language-"] {
 	background-attachment: local;
 	margin: .5em 0;
 	padding: 0 1em;
+
+	overflow: auto;
 }
 
 pre[class*="language-"] > code {

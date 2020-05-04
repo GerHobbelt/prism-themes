@@ -1,7 +1,7 @@
 pre[class*="language-"],
 code[class*="language-"] {
 	color: #d4d4d4;
-	font-size: 13px;
+	font-size: .9em;
 	text-shadow: none;
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	direction: ltr;
@@ -17,6 +17,10 @@ code[class*="language-"] {
 	-moz-hyphens: none;
 	-ms-hyphens: none;
 	hyphens: none;
+}
+
+pre > code[class*="language-"] {
+	font-size: 1em;
 }
 
 pre[class*="language-"]::selection,

@@ -1,0 +1,292 @@
+/*
+   Panda theme by Javid Izadfar (@Javid-Izadfar)
+   based on Panda Syntax (v0.6.0)
+*/
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #E6E6E6;
+    font-family: 'Operator Mono', Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	line-height: 2;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #292A2B;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+}
+
+/* Colors */
+
+	/* Common */
+	.token.comment{
+		color: #676B79;
+		font-style: italic
+	}
+
+	/* HTML */
+	.language-markup .token.tag{
+		color: #FF2C6D;
+	}
+
+	.language-markup .token.attr-name{
+		color: #FFB86C
+	}
+	.language-markup .token.attr-name-id{
+		color: #45A9F9
+	}
+
+	.language-markup .token.attr-value{
+		color: #19f9d8;
+	}
+
+	.language-markup .token.punctuation,
+	.language-markup .token.doctype,
+	.language-markup .token.prolog,
+	.language-markup .token.cdata{
+		color: #E6E6E6;
+	}
+
+	/* CSS */
+	.language-css .token.number,
+	.language-css .token.class,
+	.language-css .token.pseudo-class,
+	.language-css .token.attribute,
+	.language-css .token.unit{
+		color: #FFB86C
+	}
+
+	.language-css .token.selector,
+	.language-css .token.important{
+		color: #FF2C6D;
+	}
+
+
+	.language-css .token.selector .token.punctuation{
+		color: #ff75b5;
+	}
+
+	.language-css .token.property,
+	.language-css .token.punctuation{
+		color: #E6E6E6;
+	}
+
+	.language-css .token.string{
+		color: #19f9d8;
+	}
+
+	.language-css .token.hexcode,
+	.language-css .token.id,
+	.language-css .token.unicode,
+	.language-css .token.ascii{
+		color: #45A9F9;
+	}
+
+	/* JavaScript */
+	.language-javascript .token.keyword.control{
+		color: #ff75b5;
+	}
+
+	.language-javascript .token.keyword.type,
+	.language-javascript .token.number,
+	.language-javascript .token.object.key .punctuation,
+	.language-javascript .token.object.method .function{
+		color: #ffb86c;
+	}
+
+	.language-javascript .token.boolean,
+	.language-javascript .token.object.key,
+	.language-javascript .token.comparison{
+		color: #ffcc95;
+	}
+
+	.language-javascript .token.keyword.operator,
+	.language-javascript .token.operator,
+	.language-javascript .token.class-name,
+	.language-javascript .token.punctuation,
+	.language-javascript .token.object.method .punctuation{
+		color: #e6e6e6;
+	}
+
+	.language-javascript .token.keyword.variable,
+	.language-javascript .token.keyword.object,
+	.language-javascript .token.keyword.function-ref .keyword.identifier{
+		color: #ff9ac1;
+	}
+
+	.language-javascript .token.string{
+		color: #19f9d8;
+	}
+
+	.language-javascript .token.function,
+	.language-javascript .token.object.method{
+		color: #6fc1ff;
+	}
+
+	/* Sass (SCSS) */
+	.language-scss .token.punctuation,
+	.language-scss .token.property,
+	.language-scss .token.comparison{
+		color: #e6e6e6
+	}
+
+	.language-scss .token.variable{
+		color: #ff9ac1;
+	}
+
+	.language-scss .token.number{
+		color: #ffb86c;
+	}
+
+	.language-scss .token.selector{
+		color: #ff2c6d;
+	}
+
+	.language-scss .token.keyword.if{
+		color: #ff75b5;
+	}
+
+	.language-scss .token.keyword.atrule{
+		color: #b084eb;
+	}
+
+/* Tab */
+.token.tab:not(:empty),
+.token.cr,
+.token.lf,
+.token.space {
+	position: relative;
+}
+
+.token.tab:not(:empty):before,
+.token.cr:before,
+.token.lf:before,
+.token.space:before {
+	color: #34383d;
+	position: absolute;
+}
+
+.token.tab:not(:empty)::before{
+    content: '\00BB';
+}
+
+.token.cr:before{
+    content: '\240D';
+}
+
+.token.crlf:before,
+.token.lf:before{
+    content: '\00AC';
+}
+
+.token.space:before{
+	content: '';
+}
+
+/* Line Number */
+pre.line-numbers {
+	position: relative;
+	padding-left: 3.8em;
+	counter-reset: linenumber;
+}
+
+pre.line-numbers > code {
+	position: relative;
+}
+
+.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: -.3em; left: -3.8em;
+	font-size: 100%;
+	width: 3em;
+	letter-spacing: -1px;
+	border-right: none;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.line-numbers-rows > span {
+	pointer-events: none;
+	display: block;
+	counter-increment: linenumber;
+}
+
+.line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #E6E6E6;
+	opacity: .7;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}
+
+/* Line HighLight */
+pre[data-line] {
+	position: relative;
+	padding: 1em 0 1em 3em;
+}
+
+.line-highlight {
+	position: absolute;
+	left: 0; right: 0;
+	padding: inherit 0;
+	margin-top: 1.1em;
+
+	background: rgba(99, 123, 156, 0.07);
+
+	pointer-events: none;
+
+	line-height: inherit;
+	white-space: pre;
+}
+
+.line-highlight:before,
+.line-highlight[data-end]:after {
+	content: attr(data-start);
+	content: '9';
+	position: absolute;
+	top: 0;
+	left: -0.3em;
+	width: 3em;
+	color: #f4f1ef;
+	text-shadow: none;
+	background-color: #373b41;
+	text-align: center;
+}
+
+.line-highlight[data-end]:after {
+	content: attr(data-end);
+	top: auto;
+	bottom: .4em;
+}
